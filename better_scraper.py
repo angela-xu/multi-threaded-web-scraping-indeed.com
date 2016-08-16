@@ -13,11 +13,11 @@ import matplotlib.colors as colors
 
 def make_soup(html):
     '''
-    This function takes an HTML object as argument, 
+    This function takes an HTML object as argument,
     and returns a Beautiful Soup object.
 
     html: HTML object
-    return: soup object 
+    return: soup object
     '''
     soup = BeautifulSoup(html, 'lxml')
     if len(soup) == 0:
@@ -37,7 +37,7 @@ def get_job_info(url):
         html = requests.get(url).text
     except:
         return    # In case of connection problems
-   
+
     soup = make_soup(html)
 
     for script in soup(['script', 'style']):
@@ -52,16 +52,16 @@ def get_job_info(url):
         return chunk_out
 
     text = ''.join(chunk_space(chunk) for chunk in chunks if chunk).encode('utf-8')    # Get rid of all blank lines and ends of line
-    
+
     try:
         text = text.decode('unicode_escape').encode('ascii', 'ignore')
     except:
         return    # As some websites are not formatted in a way that this works
-    
+
     text = re.sub('[^a-zA-Z.+3]', ' ', str(text))    # Get rid of any skils that are not words
     text = text.lower().split()    # Convert to lower case and split them apart
     stop_words = set(stopwords.words('english'))    # Filter out any stop words
-    text = [w for w in text if not w in stop_words] 
+    text = [w for w in text if not w in stop_words]
     text = list(set(text))    # Get the set of words
 
     return text
@@ -79,31 +79,31 @@ def get_page_info_by_range(url, page_range):
     for i in page_range:
         results.append(get_page_info(url, i))
     return results
-     
-   
+
+
 def get_page_info(url, page_num):
     '''
     This function takes a URL and a page number as arguments,
     combines them into a new URL for search, and returns a list of lists
-    where each list element contains a set of words of one job Ad on that page. 
+    where each list element contains a set of words of one job Ad on that page.
 
     url: string, the base URL before the page number
     page_num: int, a page number
-    return: list, a list of lists, each list element contains a set of words 
-    ''' 
-  
-    start_num = str(page_num * 10) 
-    page_url = ''.join([url, '&start=', start_num])  
+    return: list, a list of lists, each list element contains a set of words
+    '''
+
+    start_num = str(page_num * 10)
+    page_url = ''.join([url, '&start=', start_num])
     print('Getting page: ' + page_url)
 
-    html_page = requests.get(page_url).text 
+    html_page = requests.get(page_url).text
     page_soup = make_soup(html_page)
 
     base_url = 'http://www.indeed.com'
     job_link_area = page_soup.find(id = 'resultsCol')    # The center column on the page where job Ads exist
 
     page_job_descriptions = []
-    
+
     if job_link_area == None:
       print("Cannot find job_link_area for: " + page_url)
       with open("failed_to_parse_page.txt", "w") as text_file:
@@ -119,7 +119,7 @@ def get_page_info(url, page_num):
         description = get_job_info(job_urls[i])
         if description:    # Only append when the website was accessed correctly
             page_job_descriptions.append(description)
-        time.sleep(1)    # Sleep between connection requests
+        #time.sleep(1)    # Sleep between connection requests
 
     print('Page num:' + str(page_num) + 'get job description:\n' )
     print(page_job_descriptions)
@@ -136,14 +136,14 @@ def get_page_info(url, page_num):
 
 def get_skill_info(city=None, state=None):
     '''
-    This function takes a desired city/state as argument and looks for all new job Ads 
-    on Indeed.com with specified city/state. It crawls all of the job Ads and keeps track of 
-    how many use a preset list of typical data science skills. It finally returns a bar chart 
+    This function takes a desired city/state as argument and looks for all new job Ads
+    on Indeed.com with specified city/state. It crawls all of the job Ads and keeps track of
+    how many use a preset list of typical data science skills. It finally returns a bar chart
     displaying the percentage for each skill at the end of collation.
 
     city/state: string, city/state of interest, for example, get_skill_info('Seattle', 'WA').
-                Use a two letter abbreviation for the state. 
-                City and state must be specified together, or be omitted together. 
+                Use a two letter abbreviation for the state.
+                City and state must be specified together, or be omitted together.
                 If city and state are omitted, the function will assume a national search.
 
     return: a bar chart showing the most commonly desired skills in the job market for a data scientist
@@ -159,7 +159,7 @@ def get_skill_info(city=None, state=None):
         url_list = ['http://www.indeed.com/jobs?q=', job]
 
     url = ''.join(url_list)    # URL for job search
- 
+
     print("Using URL " + url)
 
     try:
@@ -169,7 +169,7 @@ def get_skill_info(city=None, state=None):
         return
 
     soup = make_soup(html)
-    
+
     num_jobs = soup.find(id = 'searchCount').string.encode('utf-8')
     print("num_jobs in string: " + str(num_jobs) )
     job_numbers = re.findall('\d+', str(num_jobs))    # Total number of jobs found
@@ -182,12 +182,12 @@ def get_skill_info(city=None, state=None):
 
     if city is None:
         print(str(total_num_jobs) + ' jobs found nationwide')
-    
-    print(str(total_num_jobs) + ' jobs found in ' + city_copy + ', ' + state) 
+
+    print(str(total_num_jobs) + ' jobs found in ' + city_copy + ', ' + state)
 
     num_pages = total_num_jobs / 10
 
-    num_threads = 10
+    num_threads = 20
 
     def work(url, page_range, queue):
         result = get_page_info_by_range(url, page_range)
@@ -197,20 +197,40 @@ def get_skill_info(city=None, state=None):
         arguments = range(1, int(num_pages+1))
         q = queue.Queue()
         threads = []
-    
+
         for i in range(0, num_threads):
             page_range = range(int(num_pages / num_threads) * i, int(num_pages / num_threads) * (i + 1))
-            t = Thread(target=work, args=(url, page_range, q)) 
+            t = Thread(target=work, args=(url, page_range, q))
             t.start()
             threads.append(t)
             time.sleep(1)
 
         for t in threads:
             t.join()
-    
-        return [q.get() for _ in range(len(arguments))]
+            print("one thread joined")
 
+        print("all threads finished")
+        print("q size is " + str(q.qsize()))
+        return q
+        #return [q.get() for _ in range(len(arguments))]
+
+    doc_frequency = Counter()
+
+    q = combine_results(num_pages, url)
+    q_size = q.qsize()
+    for _ in range(q_size):
+        entry = q.get()
+        print(entry)
+        for a in entry:
+            for b in a:
+                for c in b:
+                    #print("Updating " + c)
+                    doc_frequency.update(c)
+
+
+    '''
     total_job_descriptions = combine_results(num_pages, url)
+    print("Start to expand the results")
     total_job_descriptions = sum(total_job_descriptions, [])
 
     print('Done with collecting the job Ads!')
@@ -218,6 +238,7 @@ def get_skill_info(city=None, state=None):
 
     doc_frequency = Counter()    # Create a full counter of skills
     [doc_frequency.update(item) for item in total_job_descriptions]
+    '''
 
     language_dict = Counter({'Python': doc_frequency['python'], 'R': doc_frequency['r'],
                              'Java': doc_frequency['java'], 'C++': doc_frequency['c++'],
@@ -231,22 +252,25 @@ def get_skill_info(city=None, state=None):
     tool_dict = Counter({'Excel': doc_frequency['excel'], 'Tableau': doc_frequency['tableau'],
                          'D3.js': doc_frequency['d3.js'], 'LaTex': doc_frequency['latex'],
                          'SPSS': doc_frequency['spss'], 'D3': doc_frequency['d3'],
-                         'STATA': doc_frequency['stata']}) 
+                         'STATA': doc_frequency['stata']})
 
     big_data_dict = Counter({'Hadoop': doc_frequency['hadoop'], 'MapReduce': doc_frequency['mapreduce'],
                              'Spark': doc_frequency['spark'], 'Pig': doc_frequency['pig'],
                              'Hive': doc_frequency['hive'], 'Shark': doc_frequency['shark'],
                              'Oozie': doc_frequency['oozie'], 'ZooKeeper': doc_frequency['zookeeper'],
-                             'Flume': doc_frequency['flume'], 'Mahout': doc_frequency['mahout']}) 
-        
+                             'Flume': doc_frequency['flume'], 'Mahout': doc_frequency['mahout']})
+
     database_dict = Counter({'SQL': doc_frequency['sql'], 'NoSQL': doc_frequency['nosql'],
                              'HBase': doc_frequency['hbase'], 'Cassandra': doc_frequency['cassandra'],
                              'MongoDB': doc_frequency['mongodb']})
 
     total_skills = language_dict + tool_dict + big_data_dict + database_dict
 
+    for key, value in language_dict.items():
+        print(key + ' '+ str(value))
+
     df = pd.DataFrame(list(total_skills.items()), columns = ['Skill', 'NumAds'])    # Convert skils into a dataframe
-    df.NumAds = (df.NumAds) * 100 / len(total_job_descriptions)    # Percentage of job Ads having that skill
+    df.NumAds = (df.NumAds) * 100.0 / q_size    # Percentage of job Ads having that skill
     df.sort_values(by='NumAds', ascending=True, inplace=True)    # Sort data for plottiing
 
     plot = df.plot(x='Skill', kind='barh', legend=False, color='skyblue', title='Percentage of Data Scientist Job Ads with a Key Skill, ' + city_copy)
