@@ -107,7 +107,6 @@ def get_page_info(url, page_num):
     job_urls = [base_url + link.get('href') for link in job_link_area.find_all('a', href=True)]    # Get the URLs for the jobs
     job_urls = [x for x in job_urls if 'clk' in x]    # Get only the job related URLs
 
-
     for i in range(len(job_urls)):
         description = get_job_info(job_urls[i])
         if description:    # Only append when the website was accessed correctly
@@ -137,6 +136,7 @@ def get_page_info_by_range(url, page_range):
 def work(url, page_range, queue):
     result = get_page_info_by_range(url, page_range)
     queue.put(result)
+
 
 def combine_results(num_pages, url):
     arguments = range(1, int(num_pages+1))
