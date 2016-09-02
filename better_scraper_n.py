@@ -11,6 +11,8 @@ import matplotlib.pyplot as plt
 import matplotlib.colors as colors
 
 
+# num_threads = 20
+
 def make_soup(html):
     '''
     This function takes an HTML object as argument,
@@ -130,8 +132,7 @@ def get_page_info_by_range(url, page_range):
     results = []
     for i in page_range:
         results.append(get_page_info(url, i)) 
-    return results
-
+    return results    # results: 3 dimensions of list
 
 def work(url, page_range, queue):
     result = get_page_info_by_range(url, page_range)
@@ -139,12 +140,18 @@ def work(url, page_range, queue):
 
 
 def combine_results(num_pages, url):
-    arguments = range(1, int(num_pages+1))
+    # arguments = range(1, int(num_pages+1))
+    if num_pages < 20:
+        num_threads = int(num_pages)
+    else:
+        num_threads = 20 
+
+    page_group = num_pages / num_threads
     q = queue.Queue()
     threads = []
 
     for i in range(0, num_threads):
-        page_range = range(int(num_pages / num_threads) * i, int(num_pages / num_threads) * (i + 1))
+        page_range = range(int(page_group) * i, int(page_group) * (i + 1))
         t = Thread(target=work, args=(url, page_range, q))
         t.start()
         threads.append(t)
@@ -156,8 +163,8 @@ def combine_results(num_pages, url):
 
     print("all threads finished")
     print("q size is " + str(q.qsize()))
-    return q
-    #return [q.get() for _ in range(len(arguments))]
+    #return q
+    return [q.get() for _ in range(num_threads)]
 
 
 def get_skill_info(city=None, state=None):
@@ -213,60 +220,18 @@ def get_skill_info(city=None, state=None):
 
     num_pages = total_num_jobs / 10
 
-    num_threads = 20
+#############
 
-'''
-    def work(url, page_range, queue):
-        result = get_page_info_by_range(url, page_range)
-        queue.put(result)
-
-    def combine_results(num_pages, url):
-        arguments = range(1, int(num_pages+1))
-        q = queue.Queue()
-        threads = []
-
-        for i in range(0, num_threads):
-            page_range = range(int(num_pages / num_threads) * i, int(num_pages / num_threads) * (i + 1))
-            t = Thread(target=work, args=(url, page_range, q))
-            t.start()
-            threads.append(t)
-            time.sleep(1)
-
-        for t in threads:
-            t.join()
-            print("one thread joined")
-
-        print("all threads finished")
-        print("q size is " + str(q.qsize()))
-        return q
-        #return [q.get() for _ in range(len(arguments))]
-'''
-
-    doc_frequency = Counter()
-
-    q = combine_results(num_pages, url)
-    q_size = q.qsize()
-    for _ in range(q_size):
-        entry = q.get()
-        print(entry)
-        for a in entry:
-            for b in a:
-                for c in b:
-                    #print("Updating " + c)
-                    doc_frequency.update(c)
-
-
-    '''
-    total_job_descriptions = combine_results(num_pages, url)
-    print("Start to expand the results")
-    total_job_descriptions = sum(total_job_descriptions, [])
+    total_job_descriptions = combine_results(num_pages, url)    # 4 dimensions of list
+    total_job_descriptions = sum(sum(total_job_descriptions, []), [])    # 2 dimensions of list
 
     print('Done with collecting the job Ads!')
     print('There were ' + str(len(total_job_descriptions)) + ' jobs successfully found.')
 
-    doc_frequency = Counter()    # Create a full counter of skills
+    doc_frequency = Counter()
     [doc_frequency.update(item) for item in total_job_descriptions]
-    '''
+
+############
 
     language_dict = Counter({'Python': doc_frequency['python'], 'R': doc_frequency['r'],
                              'Java': doc_frequency['java'], 'C++': doc_frequency['c++'],
@@ -294,11 +259,11 @@ def get_skill_info(city=None, state=None):
 
     total_skills = language_dict + tool_dict + big_data_dict + database_dict
 
-    for key, value in language_dict.items():
-        print(key + ' '+ str(value))
+#    for key, value in language_dict.items():
+#       print(key + ' '+ str(value))
 
     df = pd.DataFrame(list(total_skills.items()), columns = ['Skill', 'NumAds'])    # Convert skils into a dataframe
-    df.NumAds = (df.NumAds) * 100.0 / q_size    # Percentage of job Ads having that skill
+    df.NumAds = (df.NumAds) * 100.0 / len(total_job_descriptions)    # Percentage of job Ads having that skill
     df.sort_values(by='NumAds', ascending=True, inplace=True)    # Sort data for plottiing
 
     plot = df.plot(x='Skill', kind='barh', legend=False, color='skyblue', title='Percentage of Data Scientist Job Ads with a Key Skill, ' + city_copy)
