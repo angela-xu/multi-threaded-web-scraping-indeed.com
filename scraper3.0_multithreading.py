@@ -234,7 +234,7 @@ def get_skill_info(city=None, state=None):
 
 ###########################################################################################
 #  
-# Multithreading
+# Multi-threading
 #
 ###########################################################################################
 
@@ -246,7 +246,7 @@ def get_skill_info(city=None, state=None):
 
 ###########################################################################################
 #  
-# Calculate the number and percentage of job Ads having a certain skill
+# Calculating the number and percentage of job Ads having a certain skill
 #
 ###########################################################################################
 
@@ -284,6 +284,12 @@ def get_skill_info(city=None, state=None):
     df = pd.DataFrame(list(total_skills.items()), columns = ['Skill', 'NumAds'])    # Convert results into a dataframe
     df['Percentage'] = df.NumAds / len(total_job_descriptions) * 100.0    # Percentage of job Ads having a certain skill
     df.sort_values(by='Percentage', ascending=True, inplace=True)    # Sort data for plottiing
+
+###########################################################################################
+#  
+# Ploting
+#
+###########################################################################################
 
     plot = df.plot(x='Skill', y='Percentage', kind='barh', legend=False, color='skyblue', title='Percentage of Data Scientist Job Ads with a Key Skill, ' + city_copy)
     plot.set_xlabel('Percentage Appearing in Job Ads')
