@@ -1,3 +1,0 @@
-http://www.indeed.com/jobs?q=data+scientist&l=Syracuse%2C+NY&start=0
-<html><head><meta http-equiv="refresh" content="0;url=http://webhelper.centurylink.com/index.php?origURL=http://www.indeed.com/jobs&bc="/></head><body><script type="text/javascript">window.location="http://webhelper.centurylink.com/index.php?origURL="+escape(window.location)+"&r="+escape(document.referrer)+"&bc=";</script></body></html>
-
