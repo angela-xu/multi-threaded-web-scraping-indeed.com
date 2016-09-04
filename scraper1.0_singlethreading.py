@@ -58,13 +58,6 @@ def get_job_info(url):
     return text
 
 
-# test case
-# url = 'http://www.indeed.com/viewjob?jk=ad7a03682c45df5e&q=data+scientist&l=Seattle%2C+WA&tk=1aq1lqih6bukkcbp&from=web'
-# test = get_job_info(url)
-# print(test)
-# ######################################################################################################################
-
-
 def get_skill_info(city=None, state=None):
     '''
     This function takes a desired city/state as argument and looks for all new job Ads 
