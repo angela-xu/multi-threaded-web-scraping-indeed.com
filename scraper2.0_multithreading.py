@@ -67,13 +67,6 @@ def get_job_info(url):
     return text
 
 
-# test case
-# url = 'http://www.indeed.com/viewjob?jk=ad7a03682c45df5e&q=data+scientist&l=Seattle%2C+WA&tk=1aq1lqih6bukkcbp&from=web'
-# test = get_job_info(url)
-# print(test)
-# ######################################################################################################################
-
-
 def get_page_info(url, page_num):
     '''
     This function takes a URL and a page number as arguments,
@@ -105,14 +98,6 @@ def get_page_info(url, page_num):
         time.sleep(1)    # Sleep between connection requests
 
     return page_job_descriptions
-
-
-# test case
-# url = 'http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA'
-# page_num = 2
-# test = get_page_info(url, page_num)
-# print(test)
-# #####################################################################################################################
 
 
 def get_skill_info(city=None, state=None):
@@ -163,17 +148,17 @@ def get_skill_info(city=None, state=None):
 
     num_pages = total_num_jobs / 10 
 
-    def create_queue(url, page_num, queue):
+    def work(url, page_num, queue):
         result = get_page_info(url, page_num)
         queue.put(result)
 
-    def combine_result(num_pages, url):
+    def combine_results(num_pages, url):
         arguments = range(1, int(num_pages+1))
         q = queue.Queue()
         threads = []
     
         for argument in arguments:
-            t = Thread(target=create_queue, args=(url, argument, q)) 
+            t = Thread(target=work, args=(url, argument, q)) 
             t.start()
             threads.append(t)
             time.sleep(1)
@@ -183,7 +168,7 @@ def get_skill_info(city=None, state=None):
     
         return [q.get() for _ in range(len(arguments))]
 
-    total_job_descriptions = combine_result(num_pages, url)
+    total_job_descriptions = combine_results(num_pages, url)
     total_job_descriptions = sum(total_job_descriptions, [])
 
     print('Done with collecting the job Ads!')
