@@ -124,3 +124,51 @@ http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1340
 2016-09-04 21:54:59
 http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1350
 <html><head><meta http-equiv="refresh" content="0;url=http://webhelper.centurylink.com/index.php?origURL=http://www.indeed.com/jobs&bc="/></head><body><script type="text/javascript">window.location="http://webhelper.centurylink.com/index.php?origURL="+escape(window.location)+"&r="+escape(document.referrer)+"&bc=";</script></body></html>
+
+2016-09-05 11:11:45
+http://www.indeed.com/jobs?q=data+scientist&l=Chicago%2C+IL&start=0
+<html><head><meta http-equiv="refresh" content="0;url=http://webhelper.centurylink.com/index.php?origURL=http://www.indeed.com/jobs&bc="/></head><body><script type="text/javascript">window.location="http://webhelper.centurylink.com/index.php?origURL="+escape(window.location)+"&r="+escape(document.referrer)+"&bc=";</script></body></html>
+
+2016-09-05 11:14:21
+http://www.indeed.com/jobs?q=data+scientist&l=Chicago%2C+IL&start=310
+<html><head><meta http-equiv="refresh" content="0;url=http://webhelper.centurylink.com/index.php?origURL=http://www.indeed.com/jobs&bc="/></head><body><script type="text/javascript">window.location="http://webhelper.centurylink.com/index.php?origURL="+escape(window.location)+"&r="+escape(document.referrer)+"&bc=";</script></body></html>
+
+2016-09-05 11:15:02
+http://www.indeed.com/jobs?q=data+scientist&l=Chicago%2C+IL&start=370
+<html><head><meta http-equiv="refresh" content="0;url=http://webhelper.centurylink.com/index.php?origURL=http://www.indeed.com/jobs&bc="/></head><body><script type="text/javascript">window.location="http://webhelper.centurylink.com/index.php?origURL="+escape(window.location)+"&r="+escape(document.referrer)+"&bc=";</script></body></html>
+
+2016-09-05 11:22:17
+http://www.indeed.com/jobs?q=data+scientist&l=Washington%2C+DC&start=640
+<html><head><meta http-equiv="refresh" content="0;url=http://webhelper.centurylink.com/index.php?origURL=http://www.indeed.com/jobs&bc="/></head><body><script type="text/javascript">window.location="http://webhelper.centurylink.com/index.php?origURL="+escape(window.location)+"&r="+escape(document.referrer)+"&bc=";</script></body></html>
+
+2016-09-05 11:24:06
+http://www.indeed.com/jobs?q=data+scientist&l=Washington%2C+DC&start=440
+<html><head><meta http-equiv="refresh" content="0;url=http://webhelper.centurylink.com/index.php?origURL=http://www.indeed.com/jobs&bc="/></head><body><script type="text/javascript">window.location="http://webhelper.centurylink.com/index.php?origURL="+escape(window.location)+"&r="+escape(document.referrer)+"&bc=";</script></body></html>
+
+2016-09-05 11:26:48
+http://www.indeed.com/jobs?q=data+scientist&l=Washington%2C+DC&start=1010
+<html><head><meta http-equiv="refresh" content="0;url=http://webhelper.centurylink.com/index.php?origURL=http://www.indeed.com/jobs&bc="/></head><body><script type="text/javascript">window.location="http://webhelper.centurylink.com/index.php?origURL="+escape(window.location)+"&r="+escape(document.referrer)+"&bc=";</script></body></html>
+
+2016-09-05 11:27:32
+http://www.indeed.com/jobs?q=data+scientist&l=Washington%2C+DC&start=310
+<html><head><meta http-equiv="refresh" content="0;url=http://webhelper.centurylink.com/index.php?origURL=http://www.indeed.com/jobs&bc="/></head><body><script type="text/javascript">window.location="http://webhelper.centurylink.com/index.php?origURL="+escape(window.location)+"&r="+escape(document.referrer)+"&bc=";</script></body></html>
+
+2016-09-05 11:31:22
+http://www.indeed.com/jobs?q=data+scientist&l=Washington%2C+DC&start=1170
+<html><head><meta http-equiv="refresh" content="0;url=http://webhelper.centurylink.com/index.php?origURL=http://www.indeed.com/jobs&bc="/></head><body><script type="text/javascript">window.location="http://webhelper.centurylink.com/index.php?origURL="+escape(window.location)+"&r="+escape(document.referrer)+"&bc=";</script></body></html>
+
+2016-09-05 11:32:44
+http://www.indeed.com/jobs?q=data+scientist&l=Washington%2C+DC&start=830
+<html><head><meta http-equiv="refresh" content="0;url=http://webhelper.centurylink.com/index.php?origURL=http://www.indeed.com/jobs&bc="/></head><body><script type="text/javascript">window.location="http://webhelper.centurylink.com/index.php?origURL="+escape(window.location)+"&r="+escape(document.referrer)+"&bc=";</script></body></html>
+
+2016-09-05 11:57:07
+http://www.indeed.com/jobs?q=data+scientist&l=San+Diego%2C+CA&start=140
+<html><head><meta http-equiv="refresh" content="0;url=http://webhelper.centurylink.com/index.php?origURL=http://www.indeed.com/jobs&bc="/></head><body><script type="text/javascript">window.location="http://webhelper.centurylink.com/index.php?origURL="+escape(window.location)+"&r="+escape(document.referrer)+"&bc=";</script></body></html>
+
+2016-09-05 12:08:35
+http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=500
+<html><head><meta http-equiv="refresh" content="0;url=http://webhelper.centurylink.com/index.php?origURL=http://www.indeed.com/jobs&bc="/></head><body><script type="text/javascript">window.location="http://webhelper.centurylink.com/index.php?origURL="+escape(window.location)+"&r="+escape(document.referrer)+"&bc=";</script></body></html>
+
+2016-09-05 12:19:17
+http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=950
+<html><head><meta http-equiv="refresh" content="0;url=http://webhelper.centurylink.com/index.php?origURL=http://www.indeed.com/jobs&bc="/></head><body><script type="text/javascript">window.location="http://webhelper.centurylink.com/index.php?origURL="+escape(window.location)+"&r="+escape(document.referrer)+"&bc=";</script></body></html>
