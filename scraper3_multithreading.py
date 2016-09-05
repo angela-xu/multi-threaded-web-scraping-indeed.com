@@ -14,6 +14,7 @@ from collections import Counter
 from threading import Thread
 import queue
 import time
+import datetime
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.colors as colors
@@ -103,9 +104,11 @@ def get_page_info(url, page_num):
         job_link_area = page_soup.find(id = 'resultsCol')
         if job_link_area == None:
             print('Cannot find job link area for: ' + page_url)
-            with open('output/failed_to_parse_page.txt', 'w') as text_file:
+            with open('output/failed_to_parse_page.txt', 'a') as text_file:
+                text_file.write('\n')
+                text_file.write(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + '\n')
                 text_file.write(page_url + '\n')
-                text_file.write(html_page + '\n\n')
+                text_file.write(html_page + '\n')
             return page_job_descriptions
 
     job_urls = [base_url + link.get('href') for link in job_link_area.find_all('a', href=True)]    # Get the URLs for the jobs
@@ -271,10 +274,9 @@ def get_skill_info(city=None, state=None):
                              'Java': doc_frequency['java'], 'C++': doc_frequency['c++'],
                              'Ruby': doc_frequency['ruby'], 'Perl': doc_frequency['perl'],
                              'MATLAB': doc_frequency['matlab'],'JavaScript': doc_frequency['javascript'],
-                             'Scala': doc_frequency['scala'], 'C': doc_frequency['c'],
-                             'C#': doc_frequency['c#'], 'PHP': doc_frequency['php'],
-                             'HTML': doc_frequency['html'], 'SAS': doc_frequency['sas'],
-                             'Julia': doc_frequency['julia']})
+                             'Scala': doc_frequency['scala'], 'C#': doc_frequency['c#'],
+                             'PHP': doc_frequency['php'], 'HTML': doc_frequency['html'],
+                             'SAS': doc_frequency['sas'], 'Julia': doc_frequency['julia']})
 
     tool_dict = Counter({'Excel': doc_frequency['excel'], 'Tableau': doc_frequency['tableau'],
                          'D3.js': doc_frequency['d3.js'], 'LaTex': doc_frequency['latex'],

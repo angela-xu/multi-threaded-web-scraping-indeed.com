@@ -1,8 +1,6 @@
-from better_scraper_n import *
-import datetime
+import scraper3_multithreading as sp
 
 # state = 'WA'
-# city = 'Seattle'
 # city = 'Spokane'
 # city = 'Tacoma'
 # city = 'Bellevue'
@@ -16,7 +14,6 @@ import datetime
 # city = 'Los Angeles'
 # city = 'San Diego'
 # city = 'San Jose'
-# city = 'San Francisco'
 # city = 'Fresno'
 # city = 'Sacramento'
 # city = 'Long Beach'
@@ -31,9 +28,13 @@ import datetime
 # city = 'Austin'
 # city = 'Fort Worth'
 
+# state = 'NJ'
+# city = 'Newark'
+# city = 'Jersey City'
 
-# city = 'New York'
-# state = 'NY'
+# state = 'FL'
+# city = 'Jacksonville'
+# city = 'Miami'
 
 # city = 'Chicago'
 # state = 'IL'
@@ -41,8 +42,8 @@ import datetime
 # city = 'Washington'
 # state = 'DC'
 
-# city = 'Boston'
-# state = 'MA'
+city = 'Boston'
+state = 'MA'
 
 # city = 'Houston'
 # state = 'TX'
@@ -53,34 +54,8 @@ import datetime
 # city = 'Phoenix'
 # state = 'AZ'
 
-# city = 'San Antonio'
-# state = 'TX'
-
-# city = 'Dallas'
-# state = 'TX'
-
-# city = 'Austin'
-# state = 'TX'
-
 # city = 'Minneapolis'
 # state = 'MN'
-
-# city = 'Pittsburgh'
-# state = 'PA'
-
-# city = 'Newark'
-# state = 'NJ'
-
-# city = 'Jersey City'
-# state = 'NJ'
-
-city = 'Syracuse'
-state = 'NY'
-
-
-# state = 'FL'
-# city = 'Jacksonville'
-# city = 'Miami'
 
 # city = 'Columbus'
 # state = 'OH'
@@ -94,16 +69,21 @@ state = 'NY'
 # city = 'Atlanda'
 # state = 'GA'
 
-
-start_time = time.time()
-info = get_skill_info(city=city, state=state)
-end_time = time.time()
+start_time = sp.time.time()
+info = sp.get_skill_info(city=city, state=state)
+end_time = sp.time.time()
 run_time = end_time - start_time
-print('run time --- %s seconds ---' % (run_time))
-print('')
-print(info[0])
 
-with open('./output/%s.txt' % (city), 'w') as text_file:
-    text_file.write(info[0])
-# info[0].savefig('./output/%s/%s_%s.png' % (city, city, datetime.date().today()))
-# info[1].to_csv('./output/%s/%s.csv' % (city, city), sep='\t')
+today = sp.datetime.date.today()
+today_1 = today.strftime('%m-%d-%Y')
+today_2 = today.strftime('%m_%d_%Y')
+
+print('')
+print('Date: ' + today_1)
+print('City: ' + city + ', ' + state)
+print('Number of Jobs Scraped: ' + str(info[0]))
+print('Run Time: %s seconds' % (run_time))
+print('')
+print(info[1])
+info[1].to_csv('output/%s_%s.txt' % (city, today_2), sep='\t')
+info[2].savefig('output/%s_%s.png' % (city, today_2))
