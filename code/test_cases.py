@@ -1,17 +1,24 @@
+from scraper1_singlethreading import get_job_info
+from scraper2_multithreading import get_page_info
+
 # test case of get_job_info()
-url1 = 'http://www.indeed.com/viewjob?jk=ad7a03682c45df5e&q=data+scientist&l=Seattle%2C+WA&tk=1aq1lqih6bukkcbp&from=web'
-test1 = get_job_info(url)
-print('Test of get_job_info():')
+url = 'http://www.indeed.com/viewjob?jk=ad7a03682c45df5e&q=data+scientist&l=Seattle%2C+WA&tk=1aq1lqih6bukkcbp&from=web'
 print('')
-print(test1)
-
-
+print('------ Test of get_job_info() ------')
+test = get_job_info(url)
+print('')
+print(test)
+print('')
+print('------ get_job_info() - test pass ------')
 
 # test case of get_page_info()
-url2 = 'http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA'
+url = 'http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA'
 page_num = 2
-test2 = get_page_info(url, page_num)
-print('Test of get_page_info():')
 print('')
-print(test2)
+print('------ Test of get_page_info() ------')
+test = get_page_info(url, page_num)
+print('')
+print(test)
+print('')
+print('------ get_page_info() - test pass ------')
 

@@ -1,5 +1,4 @@
 import scraper3_multithreading as sp
-import datetime
 
 # state = 'WA'
 # city = 'Seattle'
@@ -86,7 +85,7 @@ info = sp.get_skill_info(city=city, state=state)
 end_time = sp.time.time()
 run_time = end_time - start_time
 
-today = datetime.date.today()
+today = sp.datetime.date.today()
 today_1 = today.strftime('%m-%d-%Y')
 today_2 = today.strftime('%m_%d_%Y')
 

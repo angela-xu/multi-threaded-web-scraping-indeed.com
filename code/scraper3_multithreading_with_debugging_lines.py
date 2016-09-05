@@ -103,9 +103,11 @@ def get_page_info(url, page_num):
         job_link_area = page_soup.find(id = 'resultsCol')
         if job_link_area == None:
             print('Cannot find job link area for: ' + page_url)
-            with open('output/failed_to_parse_page.txt', 'w') as text_file:
+            with open('output/failed_to_parse_page.txt', 'a') as text_file:
+                text_file.write('\n')
+                text_file.write(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + '\n')
                 text_file.write(page_url + '\n')
-                text_file.write(html_page + '\n\n')
+                text_file.write(html_page + '\n')
             return page_job_descriptions
 
     job_urls = [base_url + link.get('href') for link in job_link_area.find_all('a', href=True)]    # Get the URLs for the jobs

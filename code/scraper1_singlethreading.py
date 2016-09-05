@@ -26,10 +26,10 @@ def make_soup(html):
 
 def get_job_info(url):
     '''
-    This function takes an URL of job Ad as argument,
+    This function takes a URL of job Ad as argument,
     cleans up the raw HTMl and returns a set of words of the job Ad.
 
-    url: string, an URL
+    url: string, a URL
     return: list, a set of words
     '''
     try:
@@ -101,7 +101,11 @@ def get_skill_info(city=None, state=None):
 
     soup = make_soup(html)
     
-    num_jobs_area = soup.find(id = 'searchCount').string.encode('utf-8')
+    num = soup.find(id = 'searchCount')
+    while num == None:
+        num = soup.find(id = 'searchCount')
+    num_jobs_area = num.string.encode('utf-8')
+
     job_numbers = re.findall('\d+', str(num_jobs_area))    # Total number of jobs found
 
     if len(job_numbers) > 3:
@@ -111,7 +115,6 @@ def get_skill_info(city=None, state=None):
 
     if city is None:
         print(str(total_num_jobs) + ' jobs found nationwide')
-
     print(str(total_num_jobs) + ' jobs found in ' + city_copy + ', ' + state) 
 
     num_pages = total_num_jobs / 10 
@@ -127,6 +130,9 @@ def get_skill_info(city=None, state=None):
         page_soup = make_soup(html_page)
 
         job_link_area = page_soup.find(id = 'resultsCol')    # The center column on the page where job Ads exist
+        while job_link_area == None:
+            job_link_area = page_soup.find(id = 'resultsCol')
+
         job_urls = [base_url + link.get('href') for link in job_link_area.find_all('a', href=True)]    # Get the URLs for the jobs
         job_urls = [x for x in job_urls if 'clk' in x]    # Get just the job related URLs
      
@@ -179,3 +185,5 @@ def get_skill_info(city=None, state=None):
 
     return fig, df
 
+info = get_skill_info(city='Houston', state='TX')
+print(info[1])
