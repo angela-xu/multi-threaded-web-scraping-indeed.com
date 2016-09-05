@@ -1,0 +1,145 @@
+Using URL http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA
+582 jobs found in Los Angeles, CA
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=0
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=20
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=40
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=60
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=80
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=100
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=120
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=140
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=160
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=180
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=200
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=220
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=240
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=260
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=280
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=300
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=320
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=340
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=360
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=380
+Page 12 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=130
+Page 32 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=330
+Page 0 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=10
+Page 6 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=70
+Page 30 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=310
+Page 26 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=270
+Page 2 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=30
+Page 22 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=230
+Page 34 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=350
+Page 4 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=50
+Page 20 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=210
+Page 10 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=110
+Page 16 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=170
+Page 8 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=90
+Page 28 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=290
+Page 18 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=190
+Page 24 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=250
+Page 14 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=150
+Page 36 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=370
+Page 38 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Los+Angeles%2C+CA&start=390
+Page 31 done with collecting job descriptions
+Page 13 done with collecting job descriptions
+Page 27 done with collecting job descriptions
+Page 19 done with collecting job descriptions
+Page 1 done with collecting job descriptions
+One thread joined
+Page 5 done with collecting job descriptions
+Page 23 done with collecting job descriptions
+Page 3 done with collecting job descriptions
+One thread joined
+One thread joined
+Page 17 done with collecting job descriptions
+Page 33 done with collecting job descriptions
+Page 15 done with collecting job descriptions
+Page 29 done with collecting job descriptions
+Page 25 done with collecting job descriptions
+Page 35 done with collecting job descriptions
+Page 21 done with collecting job descriptions
+Page 7 done with collecting job descriptions
+One thread joined
+Page 11 done with collecting job descriptions
+Page 37 done with collecting job descriptions
+Page 9 done with collecting job descriptions
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+Page 39 done with collecting job descriptions
+One thread joined
+All threads finished
+Done with collecting the job Ads!
+There were 524 jobs successfully found.
+
+Date: 09-05-2016
+City: Los Angeles, CA
+Number of Jobs Scraped: 524
+Run Time: 265.3683178424835 seconds
+
+         Skill  NumAds  Percentage
+25       D3.js       2    0.381679
+22   ZooKeeper       2    0.381679
+17     MongoDB       3    0.572519
+14        Ruby       3    0.572519
+13         PHP       3    0.572519
+24       LaTex       3    0.572519
+26      Mahout       4    0.763359
+30       Julia       4    0.763359
+11          D3       4    0.763359
+29         Pig       5    0.954198
+10   MapReduce       5    0.954198
+27       HBase       6    1.145038
+21   Cassandra       7    1.335878
+2        STATA       8    1.526718
+19        HTML      10    1.908397
+1         Perl      11    2.099237
+9        Scala      11    2.099237
+16        Hive      17    3.244275
+4   JavaScript      25    4.770992
+6       MATLAB      35    6.679389
+3         Java      36    6.870229
+15       NoSQL      50    9.541985
+18     Tableau      53   10.114504
+23      Hadoop      57   10.877863
+8         SPSS      58   11.068702
+28       Spark      61   11.641221
+31         C++      64   12.213740
+12       Excel     112   21.374046
+5       Python     113   21.564885
+0          SAS     113   21.564885
+20         SQL     209   39.885496
+7            R     217   41.412214
+

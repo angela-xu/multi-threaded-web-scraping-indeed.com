@@ -1,0 +1,306 @@
+Using URL http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA
+1328 jobs found in San Jose, CA
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=0
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=60
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=120
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=180
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=240
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=300
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=360
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=420
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=480
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=540
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=600
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=660
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=720
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=780
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=840
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=900
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=960
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=1020
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=1080
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=1140
+Page 48 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=490
+Page 54 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=550
+Page 42 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=430
+Page 12 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=130
+Page 18 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=190
+Page 0 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=10
+Page 84 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=850
+Page 114 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=1150
+Page 6 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=70
+Page 24 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=250
+Page 72 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=730
+Page 78 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=790
+Page 66 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=670
+Page 90 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=910
+Page 108 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=1090
+Page 102 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=1030
+Page 30 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=310
+Page 96 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=970
+Page 36 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=370
+Page 60 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=610
+Page 49 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=500
+Cannot find job link area for: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=500
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=510
+Page 85 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=860
+Page 7 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=80
+Page 19 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=200
+Page 13 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=140
+Page 55 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=560
+Page 25 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=260
+Page 73 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=740
+Page 67 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=680
+Page 109 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=1100
+Page 115 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=1160
+Page 103 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=1040
+Page 1 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=20
+Page 43 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=440
+Page 91 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=920
+Page 79 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=800
+Page 97 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=980
+Page 31 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=320
+Page 8 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=90
+Page 51 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=520
+Page 56 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=570
+Page 14 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=150
+Page 110 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=1110
+Page 61 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=620
+Page 37 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=380
+Page 20 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=210
+Page 86 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=870
+Page 26 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=270
+Page 116 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=1170
+Page 74 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=750
+Page 104 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=1050
+Page 68 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=690
+Page 2 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=30
+Page 44 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=450
+Page 52 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=530
+Page 98 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=990
+Page 9 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=100
+Page 15 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=160
+Page 32 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=330
+Page 92 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=930
+Page 80 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=810
+Page 57 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=580
+Page 111 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=1120
+Page 21 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=220
+Page 62 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=630
+Page 38 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=390
+Page 105 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=1060
+Page 87 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=880
+Page 45 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=460
+Page 117 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=1180
+Page 27 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=280
+Page 99 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=1000
+Page 3 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=40
+Page 75 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=760
+Page 53 done with collecting job descriptions
+Page 10 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=110
+Page 69 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=700
+Page 16 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=170
+Page 112 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=1130
+Page 33 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=340
+Page 81 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=820
+Page 22 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=230
+Page 58 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=590
+Page 63 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=640
+Page 93 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=940
+Page 46 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=470
+Page 106 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=1070
+Page 118 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=1190
+Page 100 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=1010
+Page 88 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=890
+Page 17 done with collecting job descriptions
+Page 4 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=50
+Page 28 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=290
+Page 39 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=400
+Page 11 done with collecting job descriptions
+Page 113 done with collecting job descriptions
+Page 70 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=710
+Page 76 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=770
+Page 34 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=350
+Page 59 done with collecting job descriptions
+Page 23 done with collecting job descriptions
+Page 82 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=830
+Page 47 done with collecting job descriptions
+Page 107 done with collecting job descriptions
+Page 64 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=650
+Page 119 done with collecting job descriptions
+Page 5 done with collecting job descriptions
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+Page 101 done with collecting job descriptions
+Page 94 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=950
+Cannot find job link area for: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=950
+Page 40 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=410
+Page 29 done with collecting job descriptions
+One thread joined
+Page 71 done with collecting job descriptions
+Page 35 done with collecting job descriptions
+One thread joined
+Page 77 done with collecting job descriptions
+Page 89 done with collecting job descriptions
+Page 65 done with collecting job descriptions
+Page 83 done with collecting job descriptions
+Page 41 done with collecting job descriptions
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+All threads finished
+Done with collecting the job Ads!
+There were 1567 jobs successfully found.
+
+Date: 09-05-2016
+City: San Jose, CA
+Number of Jobs Scraped: 1567
+Run Time: 1054.757504940033 seconds
+
+         Skill  NumAds  Percentage
+3        Shark       1    0.063816
+23       Julia       1    0.063816
+7        D3.js       4    0.255265
+14       STATA       5    0.319081
+25       Oozie       5    0.319081
+6       Mahout       7    0.446713
+13     MongoDB       8    0.510530
+28          D3       8    0.510530
+8         SPSS      12    0.765795
+21         PHP      16    1.021059
+15        Ruby      18    1.148692
+16        HTML      20    1.276324
+5    ZooKeeper      21    1.340140
+30     Tableau      22    1.403957
+1    MapReduce      34    2.169751
+19        Perl      37    2.361200
+11   Cassandra      38    2.425016
+32       HBase      41    2.616465
+31         SAS      44    2.807913
+17       Excel      49    3.126994
+10         Pig      51    3.254627
+0        Scala      59    3.765156
+29      MATLAB      75    4.786216
+2         Hive      83    5.296745
+18       Spark      91    5.807275
+4   JavaScript     110    7.019783
+20       NoSQL     153    9.763880
+22        Java     189   12.061264
+26         C++     219   13.975750
+27         SQL     221   14.103382
+9       Hadoop     254   16.209317
+12      Python     333   21.250798
+24           R     378   24.122527
+

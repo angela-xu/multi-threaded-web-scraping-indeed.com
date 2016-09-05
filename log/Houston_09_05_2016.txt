@@ -1,0 +1,78 @@
+Using URL http://www.indeed.com/jobs?q=data+scientist&l=Houston%2C+TX
+154 jobs found in Houston, TX
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Houston%2C+TX&start=0
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Houston%2C+TX&start=10
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Houston%2C+TX&start=20
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Houston%2C+TX&start=30
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Houston%2C+TX&start=40
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Houston%2C+TX&start=50
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Houston%2C+TX&start=60
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Houston%2C+TX&start=70
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Houston%2C+TX&start=80
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Houston%2C+TX&start=90
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Houston%2C+TX&start=100
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Houston%2C+TX&start=110
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Houston%2C+TX&start=120
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Houston%2C+TX&start=130
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Houston%2C+TX&start=140
+Page 1 done with collecting job descriptions
+Page 0 done with collecting job descriptions
+One thread joined
+One thread joined
+Page 8 done with collecting job descriptions
+Page 2 done with collecting job descriptions
+One thread joined
+Page 10 done with collecting job descriptions
+Page 4 done with collecting job descriptions
+Page 9 done with collecting job descriptions
+Page 5 done with collecting job descriptions
+Page 7 done with collecting job descriptions
+Page 3 done with collecting job descriptions
+One thread joined
+One thread joined
+One thread joined
+Page 13 done with collecting job descriptions
+Page 6 done with collecting job descriptions
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+Page 14 done with collecting job descriptions
+Page 11 done with collecting job descriptions
+One thread joined
+Page 12 done with collecting job descriptions
+One thread joined
+One thread joined
+One thread joined
+All threads finished
+Done with collecting the job Ads!
+There were 174 jobs successfully found.
+
+Date: 09-05-2016
+City: Houston, TX
+Number of Jobs Scraped: 174
+Run Time: 196.04837822914124 seconds
+
+         Skill  NumAds  Percentage
+0         HTML       1    0.574713
+16        Hive       1    0.574713
+15        SPSS       1    0.574713
+14     Tableau       1    0.574713
+10   Cassandra       1    0.574713
+6        NoSQL       1    0.574713
+19       HBase       1    0.574713
+17      MATLAB       4    2.298851
+18      Hadoop       5    2.873563
+2          SAS      10    5.747126
+11        Ruby      12    6.896552
+4   JavaScript      15    8.620690
+5        Spark      17    9.770115
+13        Perl      18   10.344828
+9       Python      23   13.218391
+3        Excel      24   13.793103
+8          C++      35   20.114943
+7          SQL      37   21.264368
+12           R      40   22.988506
+1         Java      44   25.287356
+

@@ -1,0 +1,62 @@
+Using URL http://www.indeed.com/jobs?q=data+scientist&l=Charlotte%2C+NC
+95 jobs found in Charlotte, NC
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Charlotte%2C+NC&start=0
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Charlotte%2C+NC&start=10
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Charlotte%2C+NC&start=20
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Charlotte%2C+NC&start=30
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Charlotte%2C+NC&start=40
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Charlotte%2C+NC&start=50
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Charlotte%2C+NC&start=60
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Charlotte%2C+NC&start=70
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Charlotte%2C+NC&start=80
+Page 3 done with collecting job descriptions
+Page 0 done with collecting job descriptions
+One thread joined
+Page 7 done with collecting job descriptions
+Page 1 done with collecting job descriptions
+One thread joined
+Page 2 done with collecting job descriptions
+One thread joined
+One thread joined
+Page 5 done with collecting job descriptions
+Page 4 done with collecting job descriptions
+One thread joined
+One thread joined
+Page 8 done with collecting job descriptions
+Page 6 done with collecting job descriptions
+One thread joined
+One thread joined
+One thread joined
+All threads finished
+Done with collecting the job Ads!
+There were 117 jobs successfully found.
+
+Date: 09-05-2016
+City: Charlotte, NC
+Number of Jobs Scraped: 117
+Run Time: 119.16461515426636 seconds
+
+         Skill  NumAds  Percentage
+0         Perl       1    0.854701
+1           D3       1    0.854701
+19       HBase       1    0.854701
+5          Pig       1    0.854701
+7    Cassandra       1    0.854701
+8      Tableau       1    0.854701
+18        Ruby       3    2.564103
+15       NoSQL       3    2.564103
+14       Spark       3    2.564103
+11         PHP       3    2.564103
+17         C++       4    3.418803
+10      MATLAB       4    3.418803
+3         SPSS       4    3.418803
+20  JavaScript       4    3.418803
+21        Hive       4    3.418803
+13        Java       8    6.837607
+4       Hadoop      11    9.401709
+6       Python      16   13.675214
+9          SQL      18   15.384615
+16       Excel      21   17.948718
+2            R      21   17.948718
+12         SAS      38   32.478632
+
