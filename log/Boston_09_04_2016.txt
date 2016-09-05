@@ -1,0 +1,386 @@
+Using URL http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA
+1601 jobs found in Boston, MA
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=0
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=80
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=160
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=240
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=320
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=400
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=480
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=560
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=640
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=720
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=800
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=880
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=960
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1040
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1120
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1200
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1280
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1360
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1440
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1520
+Cannot find job link area for: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=880
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=890
+Page 32 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=330
+Page 16 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=170
+Page 24 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=250
+Page 48 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=490
+Page 0 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=10
+Page 96 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=970
+Page 80 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=810
+Page 104 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1050
+Page 128 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1290
+Page 56 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=570
+Cannot find job link area for: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=10
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=20
+Page 120 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1210
+Page 64 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=650
+Page 152 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1530
+Page 72 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=730
+Page 8 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=90
+Cannot find job link area for: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=570
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=580
+Page 136 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1370
+Page 144 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1450
+Page 89 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=900
+Page 17 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=180
+Page 40 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=410
+Page 33 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=340
+Page 73 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=740
+Page 97 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=980
+Page 129 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1300
+Page 49 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=500
+Page 121 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1220
+Page 105 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1060
+Page 153 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1540
+Page 81 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=820
+Page 137 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1380
+Page 65 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=660
+Page 112 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1130
+Page 9 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=100
+Page 25 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=260
+Cannot find job link area for: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=260
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=270
+Page 58 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=590
+Page 2 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=30
+Page 90 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=910
+Page 74 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=750
+Page 41 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=420
+Page 145 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1460
+Page 34 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=350
+Page 18 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=190
+Page 130 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1310
+Page 106 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1070
+Cannot find job link area for: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1070
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1080
+Page 10 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=110
+Page 82 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=830
+Page 50 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=510
+Page 66 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=670
+Page 98 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=990
+Page 122 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1230
+Page 138 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1390
+Page 154 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1550
+Page 27 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=280
+Page 75 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=760
+Page 35 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=360
+Cannot find job link area for: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=280
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=290
+Page 113 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1140
+Page 42 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=430
+Page 59 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=600
+Page 3 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=40
+Page 146 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1470
+Page 131 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1320
+Page 19 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=200
+Page 67 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=680
+Page 11 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=120
+Page 83 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=840
+Page 91 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=920
+Page 108 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1090
+Page 123 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1240
+Page 155 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1560
+Page 99 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1000
+Page 29 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=300
+Page 139 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1400
+Page 51 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=520
+Page 76 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=770
+Page 114 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1150
+Page 109 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1100
+Page 140 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1410
+Page 132 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1330
+Page 52 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=530
+Page 36 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=370
+Page 100 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1010
+Page 77 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=780
+Page 43 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=440
+Page 12 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=130
+Page 147 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1480
+Page 60 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=610
+Page 4 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=50
+Page 115 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1160
+Page 20 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=210
+Cannot find job link area for: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=210
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=220
+Page 68 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=690
+Page 53 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=540
+Page 124 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1250
+Page 84 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=850
+Page 156 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1570
+Page 92 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=930
+Page 30 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=310
+Page 141 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1420
+Page 110 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1110
+Cannot find job link area for: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=930
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=940
+Page 133 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1340
+Page 101 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1020
+Page 37 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=380
+Cannot find job link area for: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1340
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1350
+Cannot find job link area for: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1350
+Page 22 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=230
+Page 31 done with collecting job descriptions
+Page 5 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=60
+Page 69 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=700
+Page 54 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=550
+Page 125 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1260
+Page 157 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1580
+Page 78 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=790
+Page 44 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=450
+Page 111 done with collecting job descriptions
+Page 85 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=860
+Page 116 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1170
+Page 148 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1490
+Page 13 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=140
+Page 61 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=620
+Page 102 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1030
+Page 142 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1430
+Page 55 done with collecting job descriptions
+Page 94 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=950
+Page 38 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=390
+Page 158 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1590
+Page 126 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1270
+Page 6 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=70
+Page 23 done with collecting job descriptions
+Page 70 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=710
+Page 117 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1180
+Page 14 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=150
+Page 143 done with collecting job descriptions
+Page 103 done with collecting job descriptions
+Page 86 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=870
+Page 79 done with collecting job descriptions
+Page 149 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1500
+Page 62 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=630
+Page 45 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=460
+Page 95 done with collecting job descriptions
+Page 159 done with collecting job descriptions
+Page 39 done with collecting job descriptions
+Page 71 done with collecting job descriptions
+Page 7 done with collecting job descriptions
+One thread joined
+Page 87 done with collecting job descriptions
+Page 118 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1190
+Page 127 done with collecting job descriptions
+Page 150 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=1510
+Page 15 done with collecting job descriptions
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+Page 63 done with collecting job descriptions
+Page 46 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Boston%2C+MA&start=470
+Page 151 done with collecting job descriptions
+Page 119 done with collecting job descriptions
+Page 47 done with collecting job descriptions
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+All threads finished
+Done with collecting the job Ads!
+There were 1872 jobs successfully found.
+
+Date: 09-04-2016
+City: Boston, MA
+Number of Jobs Scraped: 1872
+Run Time: 1549.4305520057678 seconds
+
+         Skill  NumAds  Percentage
+3        Flume       1    0.053419
+28       LaTex       1    0.053419
+23       Julia       1    0.053419
+8       Mahout       2    0.106838
+17   ZooKeeper       2    0.106838
+2        D3.js       4    0.213675
+7        HBase       6    0.320513
+25          D3       7    0.373932
+20     MongoDB       8    0.427350
+31         Pig       9    0.480769
+29   MapReduce       9    0.480769
+4         Hive      15    0.801282
+15        SPSS      17    0.908120
+18     Tableau      18    0.961538
+32         PHP      55    2.938034
+24       STATA      60    3.205128
+10        HTML      65    3.472222
+0        Excel      74    3.952991
+6        Scala      76    4.059829
+30         C++      89    4.754274
+13   Cassandra     100    5.341880
+14        Perl     113    6.036325
+9        Spark     116    6.196581
+5          SQL     132    7.051282
+11      Hadoop     140    7.478632
+12        Ruby     164    8.760684
+1        NoSQL     172    9.188034
+27        Java     178    9.508547
+19      MATLAB     184    9.829060
+21         SAS     204   10.897436
+16  JavaScript     261   13.942308
+26      Python     321   17.147436
+22           R     333   17.788462
+

@@ -1,0 +1,426 @@
+Using URL http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA
+1840 jobs found in San Francisco, CA
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=0
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=90
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=180
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=270
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=360
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=450
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=540
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=630
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=720
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=810
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=900
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=990
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1080
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1170
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1260
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1350
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1440
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1530
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1620
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1710
+Cannot find job link area for: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1170
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1180
+Cannot find job link area for: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1260
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1270
+Cannot find job link area for: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1620
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1630
+Page 9 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=100
+Page 171 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1720
+Cannot find job link area for: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1720
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1730
+Page 72 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=730
+Page 135 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1360
+Page 27 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=280
+Page 163 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1640
+Page 18 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=190
+Page 54 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=550
+Page 36 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=370
+Page 81 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=820
+Page 0 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=10
+Page 118 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1190
+Page 153 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1540
+Page 144 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1450
+Page 108 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1090
+Page 63 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=640
+Page 127 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1280
+Page 90 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=910
+Page 45 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=460
+Page 136 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1370
+Page 99 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1000
+Page 10 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=110
+Page 164 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1650
+Page 119 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1200
+Page 145 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1460
+Page 154 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1550
+Page 1 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=20
+Page 128 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1290
+Page 37 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=380
+Page 173 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1740
+Page 55 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=560
+Page 109 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1100
+Page 73 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=740
+Page 91 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=920
+Page 28 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=290
+Page 19 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=200
+Page 137 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1380
+Page 64 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=650
+Page 82 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=830
+Page 46 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=470
+Page 100 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1010
+Page 146 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1470
+Page 155 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1560
+Page 11 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=120
+Page 120 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1210
+Page 174 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1750
+Page 2 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=30
+Page 165 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1660
+Page 56 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=570
+Page 129 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1300
+Cannot find job link area for: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=570
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=580
+Page 110 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1110
+Page 92 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=930
+Page 101 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1020
+Page 20 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=210
+Page 29 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=300
+Page 38 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=390
+Page 74 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=750
+Page 65 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=660
+Page 138 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1390
+Page 47 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=480
+Page 12 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=130
+Page 156 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1570
+Page 175 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1760
+Page 147 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1480
+Page 121 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1220
+Page 111 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1120
+Page 130 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1310
+Page 58 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=590
+Page 166 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1670
+Page 30 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=310
+Page 102 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1030
+Page 21 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=220
+Page 83 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=840
+Page 3 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=40
+Page 75 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=760
+Page 176 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1770
+Page 39 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=400
+Page 157 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1580
+Page 148 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1490
+Page 93 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=940
+Page 139 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1400
+Page 66 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=670
+Page 13 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=140
+Page 48 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=490
+Page 122 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1230
+Page 131 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1320
+Page 112 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1130
+Page 167 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1680
+Page 22 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=230
+Page 103 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1040
+Page 76 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=770
+Page 94 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=950
+Page 31 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=320
+Cannot find job link area for: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1040
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1050
+Page 177 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1780
+Page 149 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1500
+Page 59 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=600
+Page 49 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=500
+Cannot find job link area for: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1780
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1790
+Page 40 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=410
+Page 158 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1590
+Page 84 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=850
+Page 140 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1410
+Page 67 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=680
+Page 4 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=50
+Page 132 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1330
+Page 123 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1240
+Page 14 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=150
+Page 113 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1140
+Page 168 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1690
+Page 95 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=960
+Page 50 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=510
+Page 77 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=780
+Page 150 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1510
+Page 23 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=240
+Page 85 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=860
+Page 105 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1060
+Cannot find job link area for: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=240
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=250
+Cannot find job link area for: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=780
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=790
+Page 41 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=420
+Page 60 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=610
+Page 32 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=330
+Page 159 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1600
+Page 179 done with collecting job descriptions
+Page 141 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1420
+Page 5 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=60
+Page 124 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1250
+Page 169 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1700
+Page 133 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1340
+Page 15 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=160
+Page 96 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=970
+Page 86 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=870
+Page 114 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1150
+Page 142 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1430
+Page 106 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1070
+Page 151 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1520
+Page 42 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=430
+Page 79 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=800
+Page 61 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=620
+Page 170 done with collecting job descriptions
+Page 25 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=260
+Page 160 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1610
+Page 125 done with collecting job descriptions
+Page 51 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=520
+Page 33 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=340
+Page 134 done with collecting job descriptions
+Page 68 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=690
+Page 16 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=170
+Page 6 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=70
+Cannot find job link area for: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=170
+Page 115 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=1160
+Page 107 done with collecting job descriptions
+Page 87 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=880
+Page 26 done with collecting job descriptions
+Page 143 done with collecting job descriptions
+Page 62 done with collecting job descriptions
+Page 80 done with collecting job descriptions
+Page 97 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=980
+Cannot find job link area for: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=980
+Page 161 done with collecting job descriptions
+Page 152 done with collecting job descriptions
+Page 116 done with collecting job descriptions
+Page 52 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=530
+Page 43 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=440
+Page 69 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=700
+Page 88 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=890
+Page 7 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=80
+Page 34 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=350
+Page 70 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=San+Francisco%2C+CA&start=710
+Page 53 done with collecting job descriptions
+Page 44 done with collecting job descriptions
+Page 89 done with collecting job descriptions
+Page 8 done with collecting job descriptions
+One thread joined
+One thread joined
+One thread joined
+Page 35 done with collecting job descriptions
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+Page 71 done with collecting job descriptions
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+All threads finished
+Done with collecting the job Ads!
+There were 2069 jobs successfully found.
+
+Date: 09-04-2016
+City: San Francisco, CA
+Number of Jobs Scraped: 2069
+Run Time: 1586.5854842662811 seconds
+
+         Skill  NumAds  Percentage
+1        Oozie       1    0.048333
+29       Flume       1    0.048333
+13   ZooKeeper       2    0.096665
+27       D3.js       3    0.144998
+22       Julia       6    0.289995
+19      Mahout       8    0.386660
+14          D3       8    0.386660
+6          PHP       9    0.434993
+17     MongoDB      10    0.483325
+28   Cassandra      12    0.579990
+5        HBase      13    0.628323
+32        SPSS      15    0.724988
+12        HTML      19    0.918318
+11   MapReduce      22    1.063316
+24         Pig      28    1.353311
+9         Perl      28    1.353311
+16        Ruby      29    1.401643
+4      Tableau      31    1.498308
+2        NoSQL      35    1.691638
+10       Scala      45    2.174964
+23      MATLAB      46    2.223296
+0         Hive      50    2.416626
+20         C++      57    2.754954
+7          SAS      62    2.996617
+30  JavaScript      64    3.093282
+26       STATA      80    3.866602
+21      Hadoop     100    4.833253
+3         Java     114    5.509908
+15       Excel     130    6.283229
+31       Spark     221   10.681489
+25         SQL     270   13.049783
+18           R     334   16.143064
+8       Python     395   19.091348
+

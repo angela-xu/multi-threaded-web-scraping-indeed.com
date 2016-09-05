@@ -1,0 +1,266 @@
+Using URL http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA
+1114 jobs found in Seattle, WA
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=0
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=50
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=100
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=150
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=200
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=250
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=300
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=350
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=400
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=450
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=500
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=550
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=600
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=650
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=700
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=750
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=800
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=850
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=900
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=950
+Cannot find job link area for: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=550
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=560
+Page 20 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=210
+Page 35 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=360
+Page 40 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=410
+Page 90 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=910
+Page 70 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=710
+Page 50 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=510
+Page 65 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=660
+Page 75 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=760
+Page 25 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=260
+Page 85 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=860
+Page 95 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=960
+Page 15 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=160
+Page 45 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=460
+Page 5 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=60
+Page 60 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=610
+Page 0 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=10
+Page 30 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=310
+Page 56 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=570
+Page 80 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=810
+Page 10 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=110
+Page 36 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=370
+Page 76 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=770
+Page 26 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=270
+Page 86 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=870
+Page 21 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=220
+Page 96 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=970
+Page 51 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=520
+Page 91 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=920
+Page 66 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=670
+Page 41 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=420
+Page 61 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=620
+Page 16 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=170
+Page 46 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=470
+Page 81 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=820
+Page 71 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=720
+Page 57 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=580
+Page 31 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=320
+Page 1 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=20
+Page 11 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=120
+Page 97 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=980
+Page 77 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=780
+Page 6 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=70
+Page 27 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=280
+Page 62 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=630
+Page 47 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=480
+Page 58 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=590
+Page 92 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=930
+Page 87 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=880
+Page 82 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=830
+Page 22 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=230
+Page 42 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=430
+Page 17 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=180
+Page 32 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=330
+Page 52 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=530
+Page 72 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=730
+Cannot find job link area for: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=330
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=340
+Page 67 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=680
+Page 98 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=990
+Page 37 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=380
+Page 2 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=30
+Page 28 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=290
+Page 59 done with collecting job descriptions
+Page 12 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=130
+Page 78 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=790
+Page 93 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=940
+Page 23 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=240
+Page 83 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=840
+Page 18 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=190
+Page 48 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=490
+Page 7 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=80
+Page 73 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=740
+Page 88 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=890
+Page 43 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=440
+Page 53 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=540
+Page 63 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=640
+Page 29 done with collecting job descriptions
+Page 99 done with collecting job descriptions
+Page 68 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=690
+Page 34 done with collecting job descriptions
+Page 13 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=140
+Page 84 done with collecting job descriptions
+Page 79 done with collecting job descriptions
+Page 38 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=390
+Page 94 done with collecting job descriptions
+Page 54 done with collecting job descriptions
+Page 3 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=40
+Page 24 done with collecting job descriptions
+Page 49 done with collecting job descriptions
+Page 19 done with collecting job descriptions
+Page 8 done with collecting job descriptions
+Getting page: http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=90
+Page 89 done with collecting job descriptions
+Page 74 done with collecting job descriptions
+Page 14 done with collecting job descriptions
+Page 64 done with collecting job descriptions
+Page 44 done with collecting job descriptions
+Page 69 done with collecting job descriptions
+Page 4 done with collecting job descriptions
+One thread joined
+Page 39 done with collecting job descriptions
+Page 9 done with collecting job descriptions
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+One thread joined
+All threads finished
+Done with collecting the job Ads!
+There were 1200 jobs successfully found.
+
+Date: 09-04-2016
+City: Seattle, WA
+Number of Jobs Scraped: 1200
+Run Time: 1052.496802330017 seconds
+
+         Skill  NumAds  Percentage
+23       Oozie       1    0.083333
+20       Flume       1    0.083333
+15       D3.js       1    0.083333
+25       LaTex       1    0.083333
+7    Cassandra       3    0.250000
+27       Julia       4    0.333333
+18     MongoDB       4    0.333333
+19      Mahout       5    0.416667
+31          D3       6    0.500000
+5        STATA       7    0.583333
+3        Scala      12    1.000000
+29        HTML      12    1.000000
+32       HBase      13    1.083333
+28       NoSQL      13    1.083333
+4          Pig      15    1.250000
+30   MapReduce      16    1.333333
+2         SPSS      17    1.416667
+6      Tableau      18    1.500000
+10         PHP      21    1.750000
+22        Hive      21    1.750000
+26        Ruby      22    1.833333
+11      MATLAB      32    2.666667
+8         Perl      33    2.750000
+14       Spark      35    2.916667
+17         SAS      38    3.166667
+9   JavaScript      55    4.583333
+21       Excel      74    6.166667
+16      Hadoop     119    9.916667
+24         C++     119    9.916667
+12        Java     127   10.583333
+1          SQL     153   12.750000
+13      Python     166   13.833333
+0            R     193   16.083333
+
