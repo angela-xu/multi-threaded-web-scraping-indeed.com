@@ -317,6 +317,6 @@ def run_scraper(city=None, state=None, job='data+scientist'):
     fig = plot.get_figure()
     plt.tight_layout()
 
-    return total_jobs_found, df, fig
+    return (total_jobs_found, df, fig)
 
 
