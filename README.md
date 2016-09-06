@@ -1,6 +1,6 @@
 # Multi-threaded Web Scraping indeed.com for Most-Wanted Data Science Skills
 ## Introduction
-This is a multi-threaded web scraper to scrape data science job Ads for user pre-defined location (e.g. Seattle, WA) on indeed.com to gain insights of the most-wanted data science skills in the job market. At the end of scraping, it will provide the user with the total number of job Ads scraped, a sorted list of most-wanted data science skills (each with its number and percentage of apearing in job Ads), and a bar chart for visualization.
+This is a multi-threaded web scraper to scrape data science job Ads for user pre-defined location (e.g. Seattle, WA) on indeed.com to gain insights of the most-wanted data science skills in the job market. At the end of scraping, it will provide the user with the total number of job Ads scraped, a sorted list of most-wanted data science skills (each with its number and percentage of appearing in job Ads), and a bar chart for visualization.
 * This application is written in Python 3.
 * For Pittsburgh case (100+ jobs), this multi-threaded web scraper is 862.79% faster than a single-threaded one. 
 * For Seattle case (1100+ jobs), this multi-threaded version is amazingly much faster - it reduced the running time from 12 hours to 20 minutes.
