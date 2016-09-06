@@ -1,89 +1,28 @@
-import scraper3_multithreading as sp
+import jobscraper
+import argparse
 
-# state = 'WA'
-# city = 'Spokane'
-# city = 'Tacoma'
-# city = 'Bellevue'
-# city = 'Everett'
-# city = 'Renton'
-# city = 'Yakima'
-# city = 'Kirkland'
-# city = 'Redmond'
+parser = argparse.ArgumentParser(description='Find hot skills for different career positions on indeed.com')
+parser.add_argument('--city', nargs = 1, help='target city')
+parser.add_argument('--state', nargs = 1, help='target state in abbreviation like "WA" or "NY"')
+parser.add_argument('--numThreads', nargs = 1, type=int, default=20,  help='target state in abbreviation like "WA" or "NY"')
+args = parser.parse_args()
 
-# state = 'CA'
-# city = 'Los Angeles'
-# city = 'San Diego'
-# city = 'San Jose'
-# city = 'Fresno'
-# city = 'Sacramento'
-# city = 'Long Beach'
-# city = 'Oakland'
-# city = 'Riverside'
-# city = 'Irvine'
+city = args.city[0]
+state = args.state[0]
+numThreads = args.numThreads
 
-# state = 'TX'
-# city = 'Houston'
-# city = 'San Antonio'
-# city = 'Dallas'
-# city = 'Austin'
-# city = 'Fort Worth'
+start_time = jobscraper.time.time()
+info = jobscraper.run_scraper(city=city, state=state)
+run_time = jobscraper.time.time() - start_time
 
-# state = 'NJ'
-# city = 'Newark'
-# city = 'Jersey City'
-
-# state = 'FL'
-# city = 'Jacksonville'
-# city = 'Miami'
-
-# city = 'Chicago'
-# state = 'IL'
-
-# city = 'Washington'
-# state = 'DC'
-
-city = 'Boston'
-state = 'MA'
-
-# city = 'Houston'
-# state = 'TX'
-
-# city = 'Philadelphia'
-# state = 'PA'
-
-# city = 'Phoenix'
-# state = 'AZ'
-
-# city = 'Minneapolis'
-# state = 'MN'
-
-# city = 'Columbus'
-# state = 'OH'
-
-# city = 'Charlotte'
-# state = 'North Carolina'
-
-# city = 'Las Vegas'
-# state = 'Nevada'
-
-# city = 'Atlanda'
-# state = 'GA'
-
-start_time = sp.time.time()
-info = sp.get_skill_info(city=city, state=state)
-end_time = sp.time.time()
-run_time = end_time - start_time
-
-today = sp.datetime.date.today()
-today_1 = today.strftime('%m-%d-%Y')
-today_2 = today.strftime('%m_%d_%Y')
+today = jobscraper.datetime.date.today().strftime('%m_%d_%Y')
 
 print('')
-print('Date: ' + today_1)
+print('Date: ' + today)
 print('City: ' + city + ', ' + state)
 print('Number of Jobs Scraped: ' + str(info[0]))
 print('Run Time: %s seconds' % (run_time))
 print('')
 print(info[1])
-info[1].to_csv('output/%s_%s.txt' % (city, today_2), sep='\t')
-info[2].savefig('output/%s_%s.png' % (city, today_2))
+info[1].to_csv('output/%s_%s.txt' % (city, today), sep='\t')
+info[2].savefig('output/%s_%s.png' % (city, today))

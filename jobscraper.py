@@ -1,9 +1,10 @@
 ###############################################################################################
-#  
+#
 # Scraper3.0 - Multi-threaded Scraping
 #
 # Author: Huanzhu Xu
 # Latest update: 09-04-2016
+#
 ###############################################################################################
 
 import requests
@@ -46,27 +47,33 @@ def get_job_info(url):
     try:
         html = requests.get(url).text
     except:
-        return    # In case of connection problems
+        # In case of connection problems
+        return
 
     soup = make_soup(html)
 
     for script in soup(['script', 'style']):
-        script.extract()    # Remove these two elements from soup
+        # Remove these two elements from soup
+        script.extract()
 
     text = soup.get_text()
     lines = (line.strip() for line in text.splitlines())
-    chunks = (phrase.strip() for line in lines for phrase in line.split(' '))    # Break multi-headlines into a line each
+    # Break multi-headlines into a line each
+    chunks = (phrase.strip() for line in lines for phrase in line.split(' '))
 
     def chunk_space(chunk):
-        chunk = chunk + ' '    # Fix spacing issue
+        # Fix spacing issue
+        chunk = chunk + ' '
         return chunk
 
-    text = ''.join(chunk_space(chunk) for chunk in chunks if chunk).encode('utf-8')    # Get rid of all blank lines and ends of line
+    # Get rid of all blank lines and ends of line
+    text = ''.join(chunk_space(chunk) for chunk in chunks if chunk).encode('utf-8')
 
     try:
         text = text.decode('unicode_escape').encode('ascii', 'ignore')
     except:
-        return    # As some websites are not formatted in a way that this works
+        # As some websites are not formatted in a way that this works
+        return
 
     text = re.sub('[^a-zA-Z.+3]', ' ', str(text))    # Get rid of any skils that are not words
     text = text.lower().split()    # Convert to lower case and split them apart
@@ -78,16 +85,18 @@ def get_job_info(url):
 
 
 def get_page_info(url, page_num):
+
     '''
     This function takes a URL and a page number as arguments,
     combines them into a new URL for search, and returns a two-dimensional list,
-    where each value of the list is a one-dimensional list that contains a set of words 
+    where each value of the list is a one-dimensional list that contains a set of words
     appearing in one job Ad of this page.
 
     url: string, a base URL before the page number
     page_num: int, a page number
     return: list, a two-dimensional list where each value of the list is a one-dimensional list
     '''
+
     base_url = 'http://www.indeed.com'
     page_job_descriptions = []
 
@@ -127,7 +136,7 @@ def get_page_info(url, page_num):
 def get_page_info_by_range(url, page_range):
     '''
     This function takes a URL and a range of page numbers as arguments,
-    and returns a three-dimensional list where each value of the list is 
+    and returns a three-dimensional list where each value of the list is
     a two-dimensional list that contains the job descriptions of one page.
 
     url: string, a URL
@@ -136,25 +145,25 @@ def get_page_info_by_range(url, page_range):
     '''
     results = []
     for i in page_range:
-        results.append(get_page_info(url, i)) 
+        results.append(get_page_info(url, i))
     return results    # Three-dimensional list
 
 
 def work(url, page_range, queue):
     '''
-    This function is a worker thread in multi-threading.
+    This function is executed by worker thread in multi-threading mode
     It takes a URL, a list of a range of page numbers, and a queue as arguments,
     and puts its results into the queue.
 
     url: string, a URL
     page_range: list, a list of a range of numbers
-    queue: queue, a queue
+    queue: queue, a thread-safte queue
     '''
     result = get_page_info_by_range(url, page_range)
     queue.put(result)
 
 
-def combine_results(num_pages, url):
+def process_url(num_pages, url):
     '''
     This function is the main thread in multi-threading.
     It takes the the number of total pages of job Ads and a URL as arguments,
@@ -165,37 +174,43 @@ def combine_results(num_pages, url):
     url: string, a URL
     return: list, a four-dimensioanl list that contains the results of worker threads
     '''
+
+    # set the maximum page number to be 20
     if num_pages < 20:
         num_threads = num_pages
     else:
-        num_threads = 20 
+        num_threads = 20
+
+    print('Using {} worker threads'.format(num_threads))
 
     page_group = int(num_pages / num_threads)
     q = queue.Queue()
-    threads = []
+    threads = [None] * num_threads
 
     for i in range(0, num_threads):
         page_range = range(page_group * i, page_group * (i + 1))
         t = Thread(target=work, args=(url, page_range, q))
         t.start()
-        threads.append(t)
+        threads[i] = t
         time.sleep(1)    # Sleep between worker threads
 
-    for t in threads:
-        t.join()
-        print("One thread joined")
+    for i in range(0, num_threads):
+        threads[i].join()
+        print('Thread {} joined'.format(i))
+
     print("All threads finished")
 
     return [q.get() for _ in range(num_threads)]   # Four-dimensional list
 
 
-def get_skill_info(city=None, state=None):
-    '''
-    This function takes a city/state as arguments and looks for all job Ads 
-    on Indeed.com with specified city/state. It crawls all of the job Ads and 
-    keeps track of how many use a preset list of typical data science skills. 
+def run_scraper(city=None, state=None, job='data+scientist'):
 
-    It finally returns the number of total job Ads successfullt scraped, a dataframe
+    '''
+    This function takes a city/state as arguments and looks for all job Ads
+    on Indeed.com with specified city/state. It crawls all of the job Ads and
+    keeps track of how many use a preset list of typical data science skills.
+
+    It returns the number of total job Ads successfullt scraped, a dataframe
     that contains information about each science skill with its number and percentage
     of appearing in job Ads, and a bar chart displaying the percentage for each skill.
 
@@ -205,11 +220,11 @@ def get_skill_info(city=None, state=None):
                 If city and state are omitted, the function will assume a national search.
 
     return: 1) the number of total job Ads successfully scraped
-            2) a Pandas dataframe that contains information about each data science skill 
+            2) a Pandas dataframe that contains information about each data science skill
                with its number and percentage of appearing in job Ads
             3) a bar chart for visualization
     '''
-    job = 'data+scientist'
+
     city_copy = city[:]
 
     if city is not None:
@@ -231,41 +246,38 @@ def get_skill_info(city=None, state=None):
     soup = make_soup(html)
 
     num = soup.find(id = 'searchCount')
-    while num == None:
-        num = soup.find(id = 'searchCount') 
+
+    if num == None:
+        num = soup.find(id = 'searchCount')
+
+
     num_jobs = num.string.encode('utf-8')
 
     job_numbers = re.findall('\d+', str(num_jobs))    # Total number of jobs found
 
+    # Process commas in large number representations
     if len(job_numbers) > 3:
         total_num_jobs = (int(job_numbers[2]) * 1000) + int(job_numbers[3])
     else:
         total_num_jobs = int(job_numbers[2])
 
-    if city is None:
-        print(str(total_num_jobs) + ' jobs found nationwide')
+
     print(str(total_num_jobs) + ' jobs found in ' + city_copy + ', ' + state)
 
     num_pages = int(total_num_jobs / 10)
 
-###############################################################################################
-#  
-# Multi-threading
-#
-###############################################################################################
+    # Multi-threading
 
-    total_job_descriptions = combine_results(num_pages, url)    # Four-dimensional list
-    total_job_descriptions = sum(sum(total_job_descriptions, []), [])    # Convert into two-dimensional list
+    total_job_descriptions = process_url(num_pages, url)
+    # convert 4-dimentional list into 2-dimentional list
+    total_job_descriptions = sum(sum(total_job_descriptions, []), [])
     total_jobs_found = len(total_job_descriptions)
 
     print('Done with collecting the job Ads!')
     print('There were ' + str(total_jobs_found) + ' jobs successfully found.')
 
-###############################################################################################
-#  
-# Calculating the number and percentage of job Ads having a certain skill
-#
-###############################################################################################
+
+    # Calculating the number and percentage of job Ads having a certain skill
 
     doc_frequency = Counter()
     [doc_frequency.update(item) for item in total_job_descriptions]
@@ -299,13 +311,9 @@ def get_skill_info(city=None, state=None):
     df['Percentage'] = df.NumAds / total_jobs_found * 100.0    # Percentage of job Ads having a certain skill
     df.sort_values(by='Percentage', ascending=True, inplace=True)    # Sort data for plottiing
 
-###############################################################################################
-#  
-# Visualization
-#
-###############################################################################################
+    # Visualization
 
-    plot = df.plot(x='Skill', y='Percentage', kind='barh', legend=False, color='skyblue', 
+    plot = df.plot(x='Skill', y='Percentage', kind='barh', legend=False, color='skyblue',
                    title='Percentage of Data Scientist Job Ads with a Key Skill, ' + city_copy)
     plot.set_xlabel('Percentage Appearing in Job Ads')
     fig = plot.get_figure()    # Convert the pandas plot object to a matplotlib object
