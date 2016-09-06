@@ -86,4 +86,4 @@ Run Time: 1501.2796454429626 seconds
 ## Installation and Usages
 * Download all files and folder in this repository and save them in the same folder.
 * Run run_scraper.py in Python3 with a city/state name.
-* An example to run the application against Seattle WA `python3 run_scraper.py --city Seattle --state WA`
+* An example to run the application against Seattle WA: `python3 run_scraper.py --city Seattle --state WA`
