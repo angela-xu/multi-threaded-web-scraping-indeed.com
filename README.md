@@ -13,6 +13,7 @@ And it finally provides a bar chart of most-wanted data science skills in job ma
 
 ## Installation and Usages
 Here is an example to run the application against Seattle WA
+
 `python3 run_scraper.py --city Seattle --state WA`
 
 
