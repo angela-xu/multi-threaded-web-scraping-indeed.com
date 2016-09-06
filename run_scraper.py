@@ -4,7 +4,7 @@ import argparse
 parser = argparse.ArgumentParser(description='Find hot skills for different career positions on indeed.com')
 parser.add_argument('--city', nargs = 1, help='target city')
 parser.add_argument('--state', nargs = 1, help='target state in abbreviation like "WA" or "NY"')
-parser.add_argument('--numThreads', nargs = 1, type=int, default=20,  help='target state in abbreviation like "WA" or "NY"')
+parser.add_argument('--numThreads', nargs = 1, type=int, default=20,  help='number of threads that will be spawned by the application')
 args = parser.parse_args()
 
 city = args.city[0]
