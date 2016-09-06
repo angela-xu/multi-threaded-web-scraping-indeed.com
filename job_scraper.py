@@ -84,7 +84,7 @@ def get_job_info(url):
     return text    # One-dimensional list
 
 
-def get_page_info(url, page_num):
+def get_indeed_page_info(url, page_num):
     '''
     This function takes a URL and a page number as arguments,
     combines them into a new URL for search, and returns a two-dimensional list,
@@ -134,7 +134,7 @@ def get_page_info(url, page_num):
     return page_job_descriptions    # Two-dimensional list
 
 
-def get_page_info_by_range(url, page_range):
+def get_indeed_page_info_by_range(url, page_range):
     '''
     This function takes a URL and a range of page numbers as arguments,
     and returns a three-dimensional list where each value of the list is 
@@ -146,7 +146,7 @@ def get_page_info_by_range(url, page_range):
     '''
     results = []
     for i in page_range:
-        results.append(get_page_info(url, i)) 
+        results.append(get_indeed_page_info(url, i)) 
     return results    # Three-dimensional list
 
 
@@ -160,7 +160,7 @@ def work(url, page_range, queue):
     page_range: list, a list of a range of numbers
     queue: queue, a thread-safe queue
     '''
-    result = get_page_info_by_range(url, page_range)
+    result = get_indeed_page_info_by_range(url, page_range)
     queue.put(result)
 
 
@@ -224,7 +224,8 @@ def run_scraper(city=None, state=None, job='data+scientist'):
     city_copy = city[:]
 
     if city is not None:
-        city_list = city.split()
+        # For city name like 'San Francisco', we want to convert it into 'San+Francisco'
+        city_list = city.split()  
         city = '+'.join(city_list)
         url_list = ['http://www.indeed.com/jobs?q=', job, '&l=', city, '%2C+', state]
     else:
@@ -242,7 +243,7 @@ def run_scraper(city=None, state=None, job='data+scientist'):
     soup = make_soup(html)
 
     num = soup.find(id = 'searchCount')
-    while num == None:
+    if num == None:
         num = soup.find(id = 'searchCount') 
     num_jobs = num.string.encode('utf-8')
 
@@ -261,7 +262,9 @@ def run_scraper(city=None, state=None, job='data+scientist'):
 
     num_pages = int(total_num_jobs / 10)
 
-###### Multi-threading
+    #
+    ### Multi-threading
+    #
 
     total_job_descriptions = process_url(num_pages, url)    # Four-dimensional list
     # Convert four-dimensional list into two-dimensional list
@@ -271,7 +274,9 @@ def run_scraper(city=None, state=None, job='data+scientist'):
     print('Done with collecting the job Ads!')
     print('There were ' + str(total_jobs_found) + ' jobs successfully found.')
 
-###### Calculating the number and percentage of job Ads having a certain skill
+    #
+    ### Calculating the number and percentage of job Ads having a certain skill
+    #
 
     doc_frequency = Counter()
     [doc_frequency.update(item) for item in total_job_descriptions]
@@ -308,7 +313,9 @@ def run_scraper(city=None, state=None, job='data+scientist'):
     # Sort data for plotting
     df.sort_values(by='Percentage', ascending=True, inplace=True)
 
-###### Visualization
+    #
+    ### Visualization
+    #
 
     plot = df.plot(x='Skill', y='Percentage', kind='barh', legend=False, color='skyblue', 
                    title='Percentage of Data Scientist Job Ads with a Key Skill, ' + city_copy)
