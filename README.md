@@ -12,5 +12,7 @@ And it finally provides a bar chart of most-wanted data science skills in job ma
 * These results were run on August 12, 2016.
 
 ## Installation and Usages
-* Download scraping_multithreading.py.
-* Import everything from the above module and call get_skill_info() with specified city.
+Here is an example to run the application against Seattle WA
+`python3 run_scraper.py --city Seattle --state WA`
+
+
