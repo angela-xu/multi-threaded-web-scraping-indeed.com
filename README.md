@@ -57,10 +57,10 @@ This is a multi-threaded web scraper to scrape data science job Ads for user pre
 
 ### Boston
 ![boston_09_06_2016](https://cloud.githubusercontent.com/assets/19921232/18287970/3e987308-742e-11e6-8023-25f792e2513d.png)
-Date: 09-06-2016
-City: Boston, MA
-Number of Jobs Scraped: 1678
-Run Time: 1501.2796454429626 seconds
+* Date: 09-06-2016
+* City: Boston, MA
+* Number of Jobs Scraped: 1678
+* Run Time: 1501.2796454429626 seconds
 
 ### Chicago
 ![chicago_09_05_2016](https://cloud.githubusercontent.com/assets/19921232/18263183/dac6bf68-73bc-11e6-9756-5dbfc1cdf47b.png)
