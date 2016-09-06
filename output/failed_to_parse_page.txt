@@ -172,3 +172,19 @@ http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=500
 2016-09-05 12:19:17
 http://www.indeed.com/jobs?q=data+scientist&l=San+Jose%2C+CA&start=950
 <html><head><meta http-equiv="refresh" content="0;url=http://webhelper.centurylink.com/index.php?origURL=http://www.indeed.com/jobs&bc="/></head><body><script type="text/javascript">window.location="http://webhelper.centurylink.com/index.php?origURL="+escape(window.location)+"&r="+escape(document.referrer)+"&bc=";</script></body></html>
+
+2016-09-05 19:50:21
+http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=750
+<html><head><meta http-equiv="refresh" content="0;url=http://webhelper.centurylink.com/index.php?origURL=http://www.indeed.com/jobs&bc="/></head><body><script type="text/javascript">window.location="http://webhelper.centurylink.com/index.php?origURL="+escape(window.location)+"&r="+escape(document.referrer)+"&bc=";</script></body></html>
+
+2016-09-05 19:51:27
+http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=360
+<html><head><meta http-equiv="refresh" content="0;url=http://webhelper.centurylink.com/index.php?origURL=http://www.indeed.com/jobs&bc="/></head><body><script type="text/javascript">window.location="http://webhelper.centurylink.com/index.php?origURL="+escape(window.location)+"&r="+escape(document.referrer)+"&bc=";</script></body></html>
+
+2016-09-05 19:54:50
+http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=70
+<html><head><meta http-equiv="refresh" content="0;url=http://webhelper.centurylink.com/index.php?origURL=http://www.indeed.com/jobs&bc="/></head><body><script type="text/javascript">window.location="http://webhelper.centurylink.com/index.php?origURL="+escape(window.location)+"&r="+escape(document.referrer)+"&bc=";</script></body></html>
+
+2016-09-05 19:59:36
+http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA&start=190
+<html><head><meta http-equiv="refresh" content="0;url=http://webhelper.centurylink.com/index.php?origURL=http://www.indeed.com/jobs&bc="/></head><body><script type="text/javascript">window.location="http://webhelper.centurylink.com/index.php?origURL="+escape(window.location)+"&r="+escape(document.referrer)+"&bc=";</script></body></html>

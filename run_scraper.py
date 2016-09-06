@@ -1,11 +1,19 @@
-import scraper3_multithreading as sp
+import job_scraper
+import argparse
 
-start_time = sp.time.time()
-info = sp.get_skill_info(city=city, state=state)
-end_time = sp.time.time()
-run_time = end_time - start_time
+parser = argparse.ArgumentParser(description='Find Most-Wanted Skills for Different Jobs on indeed.com')
+parser.add_argument('--city', nargs = 1, help='target city')
+parser.add_argument('--state', nargs = 1, help='target state in abbreviation like "WA", "CA", or "NY"')
+args = parser.parse_args()
 
-today = sp.datetime.date.today()
+city = args.city[0]
+state = args.state[0]
+
+start_time = job_scraper.time.time()
+info = job_scraper.run_scraper(city=city, state=state)
+run_time = job_scraper.time.time() - start_time
+
+today = job_scraper.datetime.date.today()
 today_1 = today.strftime('%m-%d-%Y')
 today_2 = today.strftime('%m_%d_%Y')
 
