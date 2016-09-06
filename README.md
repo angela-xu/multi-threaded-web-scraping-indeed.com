@@ -1,9 +1,9 @@
 # Multi-threaded Web Scraping indeed.com for Most-Wanted Data Science Skills
 ## Introduction
-This is a multi-threaded web scraper to scrape data science job Ads for user pre-defined location (e.g. Seattle, WA) on indeed.com to gain insights of the most-wanted data science skills in the job market. At the end of scraping, it will provide the user with the total number of job Ads scraped, a sorted list of most-wanted data science skills (each with its number and percentage of apearing in job Ads), and a bar chart for visualization.
+This is a multi-threaded web scraper to scrape data science job Ads for user pre-defined location (e.g. Seattle, WA) on indeed.com to gain insights of the most-wanted data science skills in the job market. At the end of scraping, it will provide the user with the total number of job Ads scraped, a sorted list of most-wanted data science skills (each with its number and percentage of appearing in job Ads), and a bar chart for visualization.
 * This application is written in Python 3.
-* For Pittsburgh case (100+ jobs), this multi-threaded scraper is 862.79% faster than a single-threaded one. 
-* For Seattle case (1100+ jobs), this multi-threaded version has reduced the running time from a 12 hours to 20 minutes.
+* For Pittsburgh case (100+ jobs), this multi-threaded web scraper is 862.79% faster than a single-threaded one. 
+* For Seattle case (1100+ jobs), this multi-threaded version is amazingly much faster - it reduced the running time from 12 hours to 20 minutes.
 
 ## Visualization and Results
 ### Seattle
@@ -57,10 +57,10 @@ This is a multi-threaded web scraper to scrape data science job Ads for user pre
 
 ### Boston
 ![boston_09_06_2016](https://cloud.githubusercontent.com/assets/19921232/18287970/3e987308-742e-11e6-8023-25f792e2513d.png)
-Date: 09-06-2016
-City: Boston, MA
-Number of Jobs Scraped: 1678
-Run Time: 1501.2796454429626 seconds
+* Date: 09-06-2016
+* City: Boston, MA
+* Number of Jobs Scraped: 1678
+* Run Time: 1501.2796454429626 seconds
 
 ### Chicago
 ![chicago_09_05_2016](https://cloud.githubusercontent.com/assets/19921232/18263183/dac6bf68-73bc-11e6-9756-5dbfc1cdf47b.png)
