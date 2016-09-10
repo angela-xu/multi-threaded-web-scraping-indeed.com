@@ -52,7 +52,7 @@ def get_job_info(url):
         html = requests.get(url).text
         global total_size
         total_size += sys.getsizeof(html)
-        print('Scraping ' + url + ' Size ' + str(sys.getsizeof(html)))
+        #print('Scraping ' + url + ' Size ' + str(sys.getsizeof(html)))
     except Exception as e:
         # In case of connection problems 
         print(str(e))
@@ -320,7 +320,7 @@ def run_scraper(city=None, state=None, job='data+scientist'):
     df['Percentage'] = df.NumAds / total_jobs_found * 100.0 
     # Sort data for plotting
     df.sort_values(by='Percentage', ascending=True, inplace=True)
-
+    pd.set_option('display.width', 1000)
     #
     ### Visualization
     #
