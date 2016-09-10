@@ -10,7 +10,7 @@ city = args.city[0]
 state = args.state[0]
 
 start_time = job_scraper.time.time()
-(total_jobs_found, dataframe, figure) = job_scraper.run_scraper(city=city, state=state)
+(total_jobs_found, total_size, dataframe, figure) = job_scraper.run_scraper(city=city, state=state)
 run_time = job_scraper.time.time() - start_time
 
 today = job_scraper.datetime.date.today()
@@ -21,6 +21,7 @@ print('')
 print('Date: ' + today_1)
 print('City: ' + city + ', ' + state)
 print('Number of Jobs Scraped: ' + str(total_jobs_found))
+print('Bytes processed: ' + str(total_size))
 print('Run Time: %s seconds' % (run_time))
 print('')
 print(dataframe)

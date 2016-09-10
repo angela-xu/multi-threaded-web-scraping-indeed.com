@@ -18,7 +18,10 @@ import datetime
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.colors as colors
+import sys
 
+# Total size of all job Ad web pages in bytes
+total_size = 0
 
 def make_soup(html):
     '''
@@ -40,14 +43,19 @@ def get_job_info(url):
     This function takes a URL of one job Ad as argument,
     cleans up the raw HTMl and returns a one-dimensional list
     that contains a set of words appearing in this job Ad.
+    e.g. url = 'https://us-amazon.icims.com/jobs/423819'
 
     url: string, a URL
     return: list, a one-dimensional list that contains a set of words
     '''
     try:
         html = requests.get(url).text
-    except:
+        global total_size
+        total_size += sys.getsizeof(html)
+        print('Scraping ' + url + ' Size ' + str(sys.getsizeof(html)))
+    except Exception as e:
         # In case of connection problems 
+        print(str(e))
         return    
 
     soup = make_soup(html)
@@ -91,7 +99,7 @@ def get_indeed_page_info(url, page_num):
     where each value of the list is a one-dimensional list that contains a set of words 
     appearing in one job Ad of this page.
 
-    url: string, a base URL before the page number
+    url: string, a base indeed.com URL before the page number, e.g. 'http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA'
     page_num: int, a page number
     return: list, a two-dimensional list where each value of the list is a one-dimensional list
     '''
@@ -106,23 +114,23 @@ def get_indeed_page_info(url, page_num):
     page_soup = make_soup(html_page)
 
     # The center column on the page where job Ads exist
-    job_link_area = page_soup.find(id = 'resultsCol')    
+    results_column = page_soup.find(id = 'resultsCol')    
 
-    if job_link_area == None:
-        job_link_area = page_soup.find(id = 'resultsCol')
-        if job_link_area == None:
-            print('Cannot find job link area for: ' + page_url)
-            with open('output/failed_to_parse_page.txt', 'a') as text_file:
-                text_file.write('\n')
-                text_file.write(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + '\n')
-                text_file.write(page_url + '\n')
-                text_file.write(html_page + '\n')
-            return page_job_descriptions
+    if results_column == None:
+        print('Cannot find "resultsCol" for: ' + page_url)
+        with open('output/failed_to_parse_page.txt', 'a') as text_file:
+            text_file.write('\n')
+            text_file.write(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + '\n')
+            text_file.write(page_url + '\n')
+            text_file.write(html_page + '\n')
+        return page_job_descriptions
 
     # Get the URLs for the jobs
-    job_urls = [base_url + link.get('href') for link in job_link_area.find_all('a', href=True)]   
+    job_urls = [base_url + link.get('href') for link in results_column.find_all('a', href=True)]   
     # Only get the job related URLs
     job_urls = [x for x in job_urls if 'clk' in x] 
+    #for x in job_urls: 
+    #    print(x)
 
     for i in range(len(job_urls)):
         description = get_job_info(job_urls[i])
@@ -324,6 +332,6 @@ def run_scraper(city=None, state=None, job='data+scientist'):
     fig = plot.get_figure()
     plt.tight_layout()
 
-    return (total_jobs_found, df, fig)
+    return (total_jobs_found, total_size, df, fig)
 
 
