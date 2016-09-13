@@ -52,7 +52,6 @@ def get_job_info(url):
         html = requests.get(url).text
         global total_size
         total_size += sys.getsizeof(html)
-        #print('Scraping ' + url + ' Size ' + str(sys.getsizeof(html)))
     except Exception as e:
         # In case of connection problems 
         print(str(e))
