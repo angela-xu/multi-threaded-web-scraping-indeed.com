@@ -20,7 +20,7 @@ import matplotlib.pyplot as plt
 import matplotlib.colors as colors
 import sys
 
-# Total size of all job Ad web pages in bytes
+# Total size of job ad web pages in bytes
 total_size = 0
 
 def make_soup(html):
@@ -40,9 +40,9 @@ def make_soup(html):
 
 def get_job_info(url):
     '''
-    This function takes a URL of one job Ad as argument,
+    This function takes a URL of one job ad as argument,
     cleans up the raw HTMl and returns a one-dimensional list
-    that contains a set of words appearing in this job Ad.
+    that contains a set of words appearing in this job ad.
     e.g. url = 'https://us-amazon.icims.com/jobs/423819'
 
     url: string, a URL
@@ -97,7 +97,7 @@ def get_indeed_page_info(url, page_num):
     This function takes a URL and a page number as arguments,
     combines them into a new URL for search, and returns a two-dimensional list,
     where each value of the list is a one-dimensional list that contains a set of words 
-    appearing in one job Ad of this page.
+    appearing in one job ad of this page.
 
     url: string, a base indeed.com URL before the page number, e.g. 'http://www.indeed.com/jobs?q=data+scientist&l=Seattle%2C+WA'
     page_num: int, a page number
@@ -113,7 +113,7 @@ def get_indeed_page_info(url, page_num):
     html_page = requests.get(page_url).text
     page_soup = make_soup(html_page)
 
-    # The center column on the page where job Ads exist
+    # The center column on the page where job ads exist
     results_column = page_soup.find(id = 'resultsCol')    
 
     if results_column == None:
@@ -175,11 +175,11 @@ def work(url, page_range, queue):
 def process_url(num_pages, url):
     '''
     This function is the main thread in multi-threading mode.
-    It takes the the number of total pages of job Ads and a URL as arguments,
+    It takes the the number of total pages of job ads and a URL as arguments,
     combines the results of worker threads and returns a four-dimensional list
     that contains the results.
 
-    num_pages: int, number of total pages of job Ads
+    num_pages: int, number of total pages of job ads
     url: string, a URL
     return: list, a four-dimensioanl list that contains the results of worker threads
     '''
@@ -212,21 +212,21 @@ def process_url(num_pages, url):
 def run_scraper(city=None, state=None, job='data+scientist'):
     '''
     This function takes a city/state and a job title as arguments 
-    and looks for all job Ads on Indeed.com with specified city/state and job title. 
-    It crawls all of the job Ads and keeps track of how many use a preset list of skills. 
+    and looks for all job ads on Indeed.com with specified city/state and job title. 
+    It crawls all of the job ads and keeps track of how many use a preset list of skills. 
 
-    It returns the number of total job Ads successfullt scraped, a dataframe
+    It returns the number of total job ads successfullt scraped, a dataframe
     that contains information about each skill with its number and percentage
-    of appearing in job Ads, and a bar chart displaying the percentage for each skill.
+    of appearing in job ads, and a bar chart displaying the percentage for each skill.
 
     city/state: string, city/state of interest, for example, run_scraper('Seattle', 'WA').
                 Use a two letter abbreviation for the state.
                 City and state must be specified together, or be omitted together.
                 If city and state are omitted, the function will assume a national search.
 
-    return: 1) the number of total job Ads successfully scraped
+    return: 1) the number of total job ads successfully scraped
             2) a Pandas dataframe that contains information about each preset skill 
-               with its number and percentage of appearing in job Ads
+               with its number and percentage of appearing in job ads
             3) a bar chart for visualization
     '''
     city_copy = city[:]
@@ -279,11 +279,11 @@ def run_scraper(city=None, state=None, job='data+scientist'):
     total_job_descriptions = sum(sum(total_job_descriptions, []), []) 
     total_jobs_found = len(total_job_descriptions)
 
-    print('Done with collecting the job Ads!')
+    print('Done with collecting the job ads!')
     print('There were ' + str(total_jobs_found) + ' jobs successfully found.')
 
     #
-    ### Calculating the number and percentage of job Ads having a certain skill
+    ### Calculating the number and percentage of job ads having a certain skill
     #
 
     doc_frequency = Counter()
@@ -316,7 +316,7 @@ def run_scraper(city=None, state=None, job='data+scientist'):
 
     # Convert results into a dataframe
     df = pd.DataFrame(list(total_skills.items()), columns = ['Skill', 'NumAds'])
-    # Percentage of job Ads having a certain skill
+    # Percentage of job ads having a certain skill
     df['Percentage'] = df.NumAds / total_jobs_found * 100.0 
     # Sort data for plotting
     df.sort_values(by='Percentage', ascending=True, inplace=True)
