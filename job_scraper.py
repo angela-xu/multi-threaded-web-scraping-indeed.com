@@ -5,7 +5,6 @@
 # Author: Huanzhu Xu
 ###############################################################################################
 
-
 import requests
 from bs4 import BeautifulSoup
 import re
@@ -43,9 +42,8 @@ def get_job_info(url):
     This function takes a URL of one job ad as argument,
     cleans up the raw HTMl and returns a one-dimensional list
     that contains a set of words appearing in this job ad.
-    e.g. url = 'https://us-amazon.icims.com/jobs/423819'
 
-    url: string, a URL
+    url: string, a URL, e.g. url = 'https://us-amazon.icims.com/jobs/423819'
     return: list, a one-dimensional list that contains a set of words
     '''
     try:
@@ -128,8 +126,6 @@ def get_indeed_page_info(url, page_num):
     job_urls = [base_url + link.get('href') for link in results_column.find_all('a', href=True)]   
     # Only get the job related URLs
     job_urls = [x for x in job_urls if 'clk' in x] 
-    #for x in job_urls: 
-    #    print(x)
 
     for i in range(len(job_urls)):
         description = get_job_info(job_urls[i])
