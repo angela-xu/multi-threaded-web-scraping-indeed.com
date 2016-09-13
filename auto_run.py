@@ -16,7 +16,7 @@ today_1 = today.strftime('%m-%d-%Y')
 today_2 = today.strftime('%m_%d_%Y')
 
 # Total number of cities
-num_of_cities = 10
+num_of_cities = 100
 # Total number of job ads scraped
 auto_run_total_jobs = 0
 # Total size of job ad web pages in bytes  
