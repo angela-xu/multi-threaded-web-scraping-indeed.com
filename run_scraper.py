@@ -31,7 +31,7 @@ with open('output/%s_%s.txt' % (city, today_2), 'a') as log:
     log.write('City: ' + city + ', ' + state + '\n')
     log.write('Number of Jobs: ' + str(total_jobs_found) + '\n')
     log.write('Bytes processed: ' + str(total_size) + '\n')
-    log.write('Run Time: %s seconds' % (run_time) + '\n')
+    log.write('Run Time: %s seconds' % (run_time) + '\n\n')
 
 dataframe.to_csv('output/%s_%s.csv' % (city, today_2), sep='\t', index=False)
 figure.savefig('output/%s_%s.png' % (city, today_2))
